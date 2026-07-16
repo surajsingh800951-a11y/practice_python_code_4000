@@ -1,4 +1,8 @@
-# Python Practice Questions
+# 🐍 Python Practice Questions
+
+Welcome to my Python Practice Repository.
+
+Here I upload Python programs while learning Python from basic to advanced.
 
 ## 1. Create a variable name and store your name in it, then print it.
 ```python
