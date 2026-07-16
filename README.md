@@ -1,9 +1,9 @@
-# 1 .Create a variable name and store your name in it, then print it.
+# 1. Create a variable name and store your name in it, then print it.
 ```python
 name="Suraj Singh"
 print(name)
 ```
-# 2 .Store 10 and 20 in two variables a and b, then print their sum.
+# 2. Store 10 and 20 in two variables a and b, then print their sum.
 ```python
 a=10 
 b=20
@@ -15,27 +15,27 @@ print("Sum two number =",sum)
 age=20
 print("age =",age)
 ```
-# 4 .Create an integer variable and print its data type.
+# 4. Create an integer variable and print its data type.
 ```python
 num=20
 print(type(int))
 ```
-# 5 .Create a string variable and print its data type.
+# 5. Create a string variable and print its data type.
 ```python
 str="Suraj Singh"
 print(type(str))
 ```
-# 6 .Create a float variable and print its data type.
+# 6. Create a float variable and print its data type.
 ```python
 num=2.25
 print(type(float))
 ```
-# 7 .Create a boolean variable and print its data type.
+# 7. Create a boolean variable and print its data type.
 ```python
 old=False
 print(type(old))
 ```
-# 8 .Take two numbers from the user and find their addition.
+# 8. Take two numbers from the user and find their addition.
 ```python
 a=input("Enter the first number = ")
 b=input("Enter the second number = ")
