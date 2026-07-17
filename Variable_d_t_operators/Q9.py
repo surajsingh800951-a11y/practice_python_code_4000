@@ -1,1 +1,0 @@
-#Take a number from the user and find its square.
