@@ -93,3 +93,9 @@ num=float(input("Enter the float number = "))
 print(num)
 print(int(num))
 ```
+## 15. Convert a float into an integer.
+```python
+num=float(input("Enter the float number = "))
+print(num)
+print(int(num))
+```
