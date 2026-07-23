@@ -99,3 +99,26 @@ num=float(input("Enter the float number = "))
 print(num)
 print(int(num))
 ```
+## 16. Check whether a number is even or odd.
+```python
+num=int(input("Enter the number = "))
+if num % 2 ==0:
+    print("Even Number")
+else:
+    print("Odd Number")
+```
+## 17. Take three numbers and find their average.
+```python
+num1=int(input("Enterr the first number = " ))
+num2=int(input("Enter the second number = "))
+num3=int(input("Enter the third number = "))
+ave=(num1+num2+num3)/3
+print("Three Number average =",ave)
+```
+## 18. Convert Celsius temperature into Fahrenheit.
+```python
+c=int(input("Enter the celsius value = "))
+f=(c*9/5)+32
+print("Fahrenheit =",f)
+```
+
