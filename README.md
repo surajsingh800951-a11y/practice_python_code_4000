@@ -75,23 +75,17 @@ num2=int(input("Enter the second number = "))
 div=num1/num2
 print("Division = ",(div))
 ```
-## 12. Store your name and age in variables and print a sentence.
+## 13. Store your name and age in variables and print a sentence.
 ```python
 name="Suraj Singh"
 age=22
 print("My name is",name,"\nI am",age,"years old")
 #print(f"My name is {name}\nI am {age} years old") # f = formatted string isase hum variable ki value sidhe string ke andar  likh sakte hai
 ```
-## 13. Convert an integer into a float.
+## 14. Convert an integer into a float.
 ```python
 num=int(input("Enter the integer number = "))
 print(float(num))
-```
-## 14. Convert a float into an integer.
-```python
-num=float(input("Enter the float number = "))
-print(num)
-print(int(num))
 ```
 ## 15. Convert a float into an integer.
 ```python
@@ -99,7 +93,13 @@ num=float(input("Enter the float number = "))
 print(num)
 print(int(num))
 ```
-## 16. Check whether a number is even or odd.
+## 16. Convert a float into an integer.
+```python
+num=float(input("Enter the float number = "))
+print(num)
+print(int(num))
+```
+## 17. Check whether a number is even or odd.
 ```python
 num=int(input("Enter the number = "))
 if num % 2 ==0:
@@ -107,7 +107,7 @@ if num % 2 ==0:
 else:
     print("Odd Number")
 ```
-## 17. Take three numbers and find their average.
+## 18. Take three numbers and find their average.
 ```python
 num1=int(input("Enterr the first number = " ))
 num2=int(input("Enter the second number = "))
@@ -115,10 +115,70 @@ num3=int(input("Enter the third number = "))
 ave=(num1+num2+num3)/3
 print("Three Number average =",ave)
 ```
-## 18. Convert Celsius temperature into Fahrenheit.
+## 19. Convert Celsius temperature into Fahrenheit.
 ```python
 c=int(input("Enter the celsius value = "))
 f=(c*9/5)+32
 print("Fahrenheit =",f)
 ```
+# Tuple Question (20 -- 29)
 
+## 20. Create a tuple of five numbers.
+```python
+t1 = (10, 20, 30, 10, 50)
+print(t1)
+```
+## 21. Print the first and last elements.
+```python
+tupple = (10, 20, 30, 40, 50)
+print("First element =", tupple[0])
+print("Last element =", tupple[-1])
+```
+## 22. Find the length of a tuple.
+```python
+tuple= (30, 80, 40, 10, 30)
+print("Length =", len(tuple))
+```
+## 23. Count how many times 10 appears.
+```python
+tupple= (10, 20, 30, 10, 50,40,45,77,8,34,67)
+num=int(input("Enter the number "))
+print("appears =", tupple.count(num), "times")
+```
+## 24. Find the index of 30.
+```python 
+tupple = (14, 80, 30, 10, 50)
+print("Index number=", tupple.index(30))
+```
+## 25. Concatenate two tuples.
+```python
+tupple_1= (13, 27, 30, 18, 50,67,34,9)
+tupple_2 = (60,45,67,34,54,70)
+tupple_3 = tupple_1 + tupple_2
+print("combine tupple =", tupple_3)
+```
+## 26. Repeat a tuple three times.
+```python
+tupple=(12,23)
+print("Reapet tuple",tupple*5)
+```
+## 27. Convert a list to a tuple.
+```python
+listt=[10,20,30,34,56,23,45]
+tupple=tuple(list)
+print(tupple)
+```
+## 28. Convert a tuple to a list and add a new element.
+```python
+tupple= (10, 20, 30)
+listt=list(tupple)
+listt.append(40)
+print(listt)
+```
+## 29. Find the maximum, minimum, and sum of a tuple.
+```python
+tupple=(10,20,30,40,50)
+print("maximum =",max(tupple))
+print("nminimum =",min(tupple))
+print("Sum =",sum(tupple))
+```
