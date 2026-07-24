@@ -182,3 +182,116 @@ print("maximum =",max(tupple))
 print("nminimum =",min(tupple))
 print("Sum =",sum(tupple))
 ```
+# List Question (30 -- 49)
+
+# 30. Create a list of 5 integers and print it.
+```python
+listt=[10,20,30,40,50]
+print("Print five integers number ",listt)
+```
+## 31. Create a list of 5 names and print it.
+```python
+name=["Suraj","Sangram","Shivam","Dileep","Prince"]
+print("Print five name ",name)
+```
+## 32. Print the first element of a list.
+```python
+listt=[12,32,45,65,76,76,4,54,34,66]
+#index[0, 1, 2,  3, 4,5, 6, 7, 8, 9]
+print("Print first element ",listt[0])
+```
+## 34. Print the middle element of a list.
+```python
+# listt=[12,32,45,65,76,6,14,54,34,66]
+# #index[0, 1, 2,  3, 4,5, 6, 7, 8, 9]
+# n=len(listt)
+# if n%2==0:
+#     mid=n//2  #floor division
+#     print("Print middle element ",listt[mid-1], listt[mid])
+# else:
+#     mid=n//2
+#     print("Print middle element ",listt[mid])
+
+listt=[12,32,45,65,76,6,14,54,34,66]
+#index[0, 1, 2,  3, 4,5, 6, 7, 8, 9]
+n=len(listt)//2
+print("Print middle element ",listt[n])
+```
+## 35. Print the length of a list using len().
+```python
+listt=[12,32,45,65,76,76,4,54,34,66]
+print("lenght ",len(listt))
+```
+## 36. Add an element to the end of a list using append().
+```python
+listt=[12,32,45,65,76,76,4,54,34]
+listt.append(9)
+print(listt)
+```
+## 37. Insert an element at index 2 using insert().
+```python
+listt=[12,34,54,34,34,54]
+listt.insert(2,40)
+print(listt)
+```
+## 38. Add multiple elements to a list using extend().
+```python
+listt1=[12,32,45,65,7,78,65,45,54]
+listt1.extend([12,22,32,43,23])
+print(listt1)
+```
+## 39. Concatenate two lists using the + operator.
+```python
+listt1=[12,32,34,22,66]
+listt2=[12,3,75,78,54,7]
+combine=listt1+listt2
+print("Concatenate two list ",combine)
+```
+## 40. Remove an element by value using remove().
+```python
+listt=[12,3,42,43,67,2,75,23]
+listt.remove(12)
+print(listt)
+```
+## 41. Remove the last element using pop().
+```python
+listt=[12,23,42,55,67,2,5,11]
+listt.pop() 
+print(listt)
+```
+## 42. Remove an element at a specific index using pop(index).
+```python
+listt=[12,32,45,64,23,78,34]
+listt.pop(2)
+print(listt)
+```
+## 43. Delete an element using del.
+```python
+listt=[12,32,42,54,67,46,23]
+del listt[:]
+print(listt)
+```
+## 44. Clear all elements from a list using clear().
+```python
+listt=[12,32,53,56,75,87,98,35,67,98]
+listt.clear()
+print(listt)
+```
+## 45. Count how many times an element appears using count().
+```python 
+listt=[12,32,44,23,5,3,23,12,5,23]
+n=int(input("please enter value "))
+print("appears",listt.count(n),"times")
+```
+## 46. Find the index of an element using index().
+```python
+listt=[12,43,5,54,65,34,21,76,12,65]
+index=listt.index(12)
+print("index =",index)
+```
+## 47. Copy one list into another using copy().
+```python
+list1=[12,34,2,44,3,32,3,4]
+list2=list1.copy()
+print(list2)
+```
