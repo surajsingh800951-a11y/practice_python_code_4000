@@ -182,7 +182,7 @@ print("maximum =",max(tupple))
 print("nminimum =",min(tupple))
 print("Sum =",sum(tupple))
 ```
-# List Question (30 -- 49)
+# List Question (30 --64 )
 
 # 30. Create a list of 5 integers and print it.
 ```python
@@ -295,3 +295,144 @@ list1=[12,34,2,44,3,32,3,4]
 list2=list1.copy()
 print(list2)
 ```
+## 48. Reverse a list using reverse().
+```python
+listt=[12,43,5,54,65,34]
+listt.reverse()
+print(listt)
+```
+## 49. Sort a list in ascending order using sort().
+```python
+listt=[12,23,4,2,3,43,45,23,23,4]
+listt.sort()
+print(listt)
+```
+## 50. Check whether an element exists in a list.
+```python
+listt=[12,33,43,56,34,65,5]
+num=10
+#num=int(input("Enter the value ")) # User 
+if num in listt:
+    print("Element exists in the list")
+else:
+    print("Element does not exist in the list") 
+ ```   
+## 51. Replace the third element with a new value.
+```python
+listt=[12,23,43,56,12,45,23,53,43]
+listt[2]=20
+print(listt)
+```
+## 52. Print all elements using a for loop.
+```python
+listt=[12,3,3,53,64,67,46,3,4,3,54]
+for i in listt:
+    print(i)
+```
+## 53. Find the largest element in a list.
+```python
+larg=0
+listt=[12,32,5,3,23,56,2,7,90,5]
+for i in listt :
+    if i > larg :
+        larg=i
+print("Largest Element",larg)
+```
+## 54. Find the smallest element in a list.
+```python
+listt=[12,32,5,3,23,56,2,7,90,5]
+smal=listt[0]
+for i in listt :
+    if i < smal :
+        smal=i
+print("Smallest Element",smal)
+```
+## 55. Find the sum of all elements.
+```python
+listt=[12,34,1,42,53,54,6,78,5,65]
+sum=0
+for i in  listt:
+    sum+=i # sum=sum+i
+print("Sum all elements",sum)
+```
+## 56. Find the average of all elements.
+```python
+listt=[12,34,1,42,53,54,6,78,5,65]
+n=0
+sum=0
+for i in  listt:
+    sum+=i # sum=sum+i
+    n+=1 # n=n+1
+ave=sum/n
+print("Average all elements",ave)    
+```
+## 57. Create a list of numbers from 1 to 10.
+```python
+listt=[]
+for i in range(1,11):
+     listt.append(i)
+print(listt)
+```
+## 58. Print only the even numbers from a list.
+```python
+listt=[12,23,56,58,52,36,68,59,74,25,36,59,54,35]
+print("Only Even number")
+for i in listt:
+    if i % 2 == 0:
+        print(i)
+```
+## 59. Print only the odd numbers from a list.
+```python
+listt=[12,23,56,58,52,36,68,59,74,25,36,59,54,35]
+print("Only Odd number")
+for i in listt:
+    if i % 2 != 0:
+        print(i)
+```
+## 60. Create a copy of a list without using copy().
+```python
+listt1=[]
+listt2=[14,15,19,52,56,45,54]
+for i in listt2:
+    listt1.append(i)
+print("Copy list",listt1)
+```
+## 61. Sort a list in descending order.
+```python
+listt=[12,34,54,65,67,32,54,65,23,54,34,43,3]
+listt.sort(reverse=True)
+print(listt)
+```
+## 62. Reverse a list without using reverse().
+```python
+listt=[12,45,48,45,35,65,89,78,1,5]
+listt=listt[::-1] # slicing
+print(listt)
+```
+## 63. Remove duplicate elements from a list.
+```python
+listt1=[1,34,23,65,67,34,1,34,65,23,45,98,23]
+listt2=[]
+for i in listt1:
+    if i not in listt2:
+        listt2.append(i)
+print(listt2)
+```
+## 64. Merge three lists into one list.
+```python
+listt1=[14,25,35]
+listt2=[12,56]
+listt3=[15,2,36]
+listt=listt1+listt2+listt3
+print("Three list merge ",listt)
+```
+
+    
+
+
+
+
+        
+
+
+
