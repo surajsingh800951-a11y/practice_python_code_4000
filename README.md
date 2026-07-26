@@ -426,8 +426,36 @@ listt3=[15,2,36]
 listt=listt1+listt2+listt3
 print("Three list merge ",listt)
 ```
-
-    
+# Type Conversion (65 -- 75)
+     
+## 65. Write a program to add an integer and a float and display the result.
+```python
+num=10 # int
+f_num=4.5 # float
+result=num+f_num
+print(result)
+```
+## 66. Write a program to divide two integers and print the data type of the result.
+```python
+num=10
+b=5
+div=num/b
+print(type(div))
+```
+## 67. Write a program to add a boolean value and an integer.
+```python
+is_bool=False # boolean # true =1, false=0
+num=10 # integer
+add=is_bool+num
+print(add)
+```
+## 68. Write a program to multiply an integer with a float.
+```python
+is_num=10
+is_float=10.5
+is_multiply=is_num*is_float
+print(is_multiply)
+```
 
 
 
