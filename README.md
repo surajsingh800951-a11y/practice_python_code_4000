@@ -456,6 +456,69 @@ is_float=10.5
 is_multiply=is_num*is_float
 print(is_multiply)
 ```
+## 69. Write a program to add two numbers of different data types (int and float).
+```python
+num=10
+f_num=10.5  #float
+add=num+f_num
+print(add)
+```
+## 70. Write a program to divide two integers and print the data type of the result.
+```python
+num=10 
+num1=2
+divide=num/num1
+print(type(divide))
+```
+## 71.  Write a program to compare an integer and a float using the == operator.
+```python
+num=12
+f_num=10.5
+result=num == f_num
+print(result)
+```
+## 72. Write a program to subtract a float from an integer.
+```python
+num=10
+f_num=10.5
+subtract=num-f_num
+print(subtract)
+```
+## 73. Write a program to perform arithmetic operations between True and False.
+```python
+a=False
+b=True
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+equal=a==b
+print("Addition",add)
+print("Subtraction",sub)
+print("Division",div)
+print("Multiplication",mul)
+print("Equal",equal)
+```
+## 74. Write a program to add a float and a boolean.
+```python
+f_num=20.5 # float number
+b_num=True # boolien Value
+add=f_num+b_num
+print(add)
+```
+## 75. Write a program to print the data type of the result after adding an int and a float.
+```python
+num=12
+f_num=20.5 # float value 
+result=num+f_num
+print("Data type of the result",type(result))
+
+"""num=int(input("Enter the integer value "))
+f_num=float(input("Enter the float value "))       #  User 
+result=num+f_num
+print("Data type of the result",type(result))"""
+```
+# Type Casting (76 -- 96)
 
 
 
