@@ -518,7 +518,214 @@ f_num=float(input("Enter the float value "))       #  User
 result=num+f_num
 print("Data type of the result",type(result))"""
 ```
-# Type Casting (76 -- 96)
+# Type Casting (76 -- 95)
+
+## 76. Write a program to convert a string "100" into an integer.
+```python
+num="100" # string value 
+#print(type(num)) # Output <class 'str'>
+print(int(num)) #  Output: 100 (integer)
+print(type(int(num))) # Output <class 'int'>
+```
+## 77. Write a program to convert a string "25.75" into a float.
+```python
+f_num="25.75" # float value
+print(type(f_num)) # Output <class 'str'>
+print(float(f_num)) # Output 25.75 float
+print(type(float(f_num))) # Output <class 'float'>
+```
+## 78. Write a program to convert an integer into a string.
+```python
+num=18 # integer value
+print(type(num)) # Output <class 'int'>
+print(str(num)) # String Value 18
+print(type(str(num))) # Output <class 'str'>
+```
+## 79. Write a program to convert a float into an integer.
+```python
+f_num=20.2 # float
+print(type(f_num)) # Output <class 'float'>
+print(int(f_num)) # 20 integer
+print(type(int(f_num))) # Output <class 'int'>
+```
+## 80. Write a program to convert an integer into a float.
+```python
+num=26 # integer
+print(type(num)) # Output <class 'int'>
+print(float(num)) # 26.0 ( Float )
+print(type(float(num))) # Output <class 'float'>
+```
+## 81. Write a program to convert a list into a tuple.
+```python
+listt=[12,34,2,67,85,89] 
+tupple=tuple(listt)
+print(tupple)  # Output (12, 34, 2, 67, 85, 89)
+print(type(tupple)) # Output <class 'tuple'>
+```
+## 82. Write a program to convert a tuple into a list.
+```python
+tupple=(12,34,54,67,86,5)
+print(type(tupple)) # Output <class 'tuple'>
+listt=list(tupple)
+print(listt)  # Output [12, 34, 54, 67, 86, 5]
+print(type(listt)) #Output  <class 'list'>
+```
+## 83. Write a program to convert a list with duplicate elements into a set.
+```python
+listt=[12,23,12,45,12,54,12]
+print(type(listt)) # Output <class 'list'>
+sett=set(listt)
+print(sett) # Output {12, 45, 54, 23}
+print(type(sett)) # Output <class 'set'>
+```
+## 84. Write a program to convert a string into a list of characters.
+```python
+my_string="Suraj Singh"
+print(type(my_string)) # Output <class 'str'>
+my_list=list(my_string)
+print(my_list) # Output ['S', 'u', 'r', 'a', 'j', ' ', 'S', 'i', 'n', 'g', 'h']
+print(type(my_list)) # Output  <class 'list'>
+```
+## 85. Write a program to convert a list into a set.
+```python
+my_list=[12,45,23,54]
+print(type(my_list)) # Output <class 'list'>
+my_set=set(my_list)
+print(my_set) # Output  {12, 45, 54, 23}
+print(type(my_set)) # Output <class 'set'>
+```
+## 86. Write a program to convert a set into a list.
+```python 
+my_set={ 12,34,56,23,45} 
+print(type(my_set))  # Output <class 'set'>
+my_list=list(my_set) 
+print(my_list) # Output  [34, 23, 56, 12, 45]
+print(type(my_list)) # Output  <class 'list'>
+```
+## 87. Write a program to convert a tuple into a set.
+```python
+my_tuple=(12,34,23,65,78,56)
+print(type(my_tuple)) # Output <class 'tuple'>
+my_set=set(my_tuple)
+print(my_set)   # Output   {65, 34, 12, 78, 23, 56}
+print(type(my_set)) # Output <class 'set'>
+```
+## 88. Write a program to convert the integer 0 into a boolean.
+```python
+num=0
+print(type(num)) # Output <class 'int'>
+my_bool=bool(num)
+print(my_bool) # Output  False
+print(type(my_bool)) # Output <class 'bool'>
+```
+## 89. Write a program to convert the integer 1 into a boolean.
+```python
+num=1
+print(type(num)) # Output  <class 'int'>
+
+my_bool=bool(num) 
+print(my_bool)   # Output  True
+print(type(my_bool)) # Output  <class 'bool'>
+```
+## 90. Write a program to convert an empty string into a boolean.
+```python
+my_str="" # empty string
+print(type(my_str))  # Output <class 'str'>
+my_bool=bool(my_str) 
+print(my_bool)  # Output True
+print(type(my_bool)) # Output <class 'bool'>
+```
+## 91. Write a program to convert a non-empty string into a boolean.
+```python
+my_string="S" 
+print(type(my_string)) # Output <class 'str'>
+my_bool=bool(my_string) 
+print(my_bool) # Output True
+print(type(my_bool)) # Output <class 'bool'>
+```
+## 92. Write a program to take a number as a string from the user and convert it into an integer.
+```python
+my_string=input("Enter a number ")
+print(type(my_string)) # Output <class 'str'>
+my_num=int(my_string) 
+print(my_num) # Output 123
+print(type(my_num)) # Output <class 'int'>
+```
+## 93. Write a program to take a decimal number as input and convert it into an integer.
+```python
+num=float(input("Enter the number "))
+print(type(num)) # Output <class 'float'>
+my_int=int(num)
+print(my_int) # Output 12
+print(type(my_int)) # Output <class 'int'>
+```
+## 94. Write a program to convert the string "True" into a boolean and observe the output.
+```python
+my_str="True"
+print(type(my_str)) # Output <class 'str'>
+my_bool=bool(my_str)
+print(my_bool) # Output True
+print(type(my_bool)) # Output <class 'bool'>
+```
+## 95. Write a program to convert a tuple containing duplicate values into a set. --
+```python
+my_tuple=(12,34,56,2,4,22,5,2,2,2,34,54,54)
+print(type(my_tuple)) # Output <class 'tuple'>
+my_set=set(my_tuple)
+print(my_set) # Output {34, 2, 4, 5, 12, 22, 54, 56}
+print(type(my_set)) # Output <class 'set'>
+```
+## if / else (96 -- 1)
+
+## 96. Check whether a number is positive or negative
+```python
+num=int(input("Enter the number "))
+if num > 0 :
+    print("This number is Positive")
+elif num < 0:
+    print("This number is Negative")
+else:
+    print("This number is Zero")    
+```
+## 97. Check whether a number is even or odd.
+```python
+num=int(input("Enter the number "))
+if num % 2 == 0:
+    print("This number is Even")
+else:
+    print("This number is Odd")
+```
+## 98. Check whether a person is eligible to vote (age ≥ 18).
+```python
+age=int(input("Enter the age "))
+if age >= 18:
+    print("This person is eligible to vote")
+else:
+    print("This person is not eligible to vote")
+```
+## 99. Find the greater of two numbers.
+```pyhon
+num1=int(input("Enter the first number "))
+num2=int(input("Enter the second number "))
+if num1 > num2 :
+    print("First number is Greater")
+else:
+    print("Second number is Greater")
+```
+## 100. Find the smaller of two numbers.
+```python
+num1=int(input("Enter the first number "))
+num2=int(input("Enter the second number "))
+if num1 < num2 :
+    print("First number is Smaller")
+else:
+    print("Second number is Smaller")
+```
+
+
+
+
+
 
 
 
