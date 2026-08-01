@@ -675,7 +675,7 @@ my_set=set(my_tuple)
 print(my_set) # Output {34, 2, 4, 5, 12, 22, 54, 56}
 print(type(my_set)) # Output <class 'set'>
 ```
-## if / else (96 -- 1)
+## if / else (96 -- 125)
 
 ## 96. Check whether a number is positive or negative
 ```python
@@ -721,16 +721,168 @@ if num1 < num2 :
 else:
     print("Second number is Smaller")
 ```
-
-
-
-
-
-
-
-
-
-        
-
-
-
+## 101. Check whether a number is divisible by 5.
+```python
+num=int(input("Enter the number "))
+if num % 5 == 0:
+    print("This number is divisiable by 5")
+else:
+    print("This number is not divisiable by 5")
+```
+## 102. Check whether a number is divisible by 3 and 5.
+```python
+num=int(input("Enter the number "))
+# if num % 5 ==0:
+#     if num % 3 == 0:
+#         print("This number is divisible by  3 and 5")
+#     else:
+#          print("This number is not divisible 3 and 5")
+# else:
+#     print("This number is not divisible 3 and 5")
+    
+    
+    # Logical Operators --- and ---
+    
+if num % 5 ==0 and num % 3 == 0:
+    print("This number is divisible by  3 and 5")
+else:
+    print("This number is not divisible 3 and 5")
+```
+## 103. Check whether a character is a vowel or consonant.
+```python
+char=input("Enter the any character ")
+if char=='a':
+    print("Character is vowel = ",char)
+elif char=='i':
+     print("Character is vowel = ",char)
+elif char =='o':
+     print("Character is vowel = ",char) 
+elif char=='u':
+     print("Character is vowel = ",char) 
+elif char == 'e':
+    print("Character is a vowel = ",char)
+else:
+     print("Character is a consonant = ",char)
+```
+## 104. Check whether a year is a leap year.
+```python
+year=int(input("Please enter the year = "))
+if (year % 4 == 0 and year % 100 != 0) or year % 400==0:
+    print("This is a leap year",year)
+else:
+    print("This is a not leap year",year)
+```
+## 105. Check whether a number is a multiple of 10.
+```python
+num=int(input("Enter a number "))
+if num % 10 == 0:
+    print("This number is a multiple of 10 =",num)
+else:
+    print("This number is not a multiple of 10 =",num)
+```
+## 106. Find the largest of three numbers.
+```python
+a=int(input("Enter the first number = "))
+b=int(input("Enter the second number = "))
+c=int(input("Enter the third number = "))
+if a < b :
+    if b < c:
+        print("Largest number =",c)
+    else:
+        print("Largest number =",b)
+elif a < c:
+    print("Largest number =",c)
+else:
+    print("Largest number =",a)
+```
+## 107. Find the smallest of three numbers.
+```python
+a=int(input("Enter the first number = "))
+b=int(input("Enter the second number = "))
+c=int(input("Enter the third number = "))
+if a < b:
+    if a < c:
+        print("Smallest number =",a)
+    else:
+        print("Smallest number =",c)
+elif b < c :
+    print("Smallest number =",b)
+else:
+    print("Smallest number =",c)
+```
+## 108. Check whether a number is a two-digit number.
+```python
+num=int(input("Enter the number = "))
+if num >= 10 and num <= 99:    # if 10 <= num <= 99: Same logic
+    print("This number is two digit = ",num) 
+else:
+    print("This number is not two digit = ",num)
+```
+## 109. Check whether a number is a three-digit number. 
+```python
+num=int(input("Enter the number = "))  # only  Positive number
+if 100 <= num  <= 999:
+    print("This number is three digit = ",num) 
+else:
+    print("This number is not three digit = ",num) 
+```
+## 110. Check whether a number is divisible by both 2 and 7.
+```python
+num=int(input("Enter the number = "))
+if num % 2 == 0 and num % 7 == 0:
+    print("This number is divisible by both 2 and 7 =",num)
+else:
+    print("This number is not divisible by both 2 and 7 =",num)
+```
+## 111. Calculate grade based on marks.
+```python
+marks=int(input("Enter your marks = "))
+if 90 <= marks <= 100:
+    print("Grade = A")
+elif 80 <= marks < 90:
+    print("Grade = B")
+elif 70 <= marks < 80:
+    print("Grade = C")
+elif 60 <= marks < 70:
+    print("Grade = D")
+else:
+    print("Grade = F")
+```
+## 112. Check whether a person is a child, teenager, adult, or senior citizen.
+```python
+age=int(input("Enter your Age = "))
+if age < 0:
+    print("Invalid Age")
+elif 0 <= age <= 12:
+    print("Child")
+elif 13 <= age < 20:
+    print("Teenager")
+elif 20 <= age < 60:
+    print("Adult")
+else:
+    print("Senior Citizen")
+```
+## 113. Check whether a character is uppercase or lowercase.
+```python
+char=input("Enter the character = ")
+if len(char) != 1:
+    print("Please enter only one character")
+elif 'a' <= char <= 'z':
+    print("This character is lowercase =",char)
+elif  'A' <= char <= 'Z':
+    print("This character is uppercase =",char)
+else:
+    print("Invalid character") 
+```
+## 114. Check whether a number is divisible by 2, 3, both, or neither.
+```python
+num=int(input("Enter the number = "))
+if num % 2 == 0 and num % 3 == 0:
+    print("Divisible by both 2 and 3 =",num)
+elif num % 2 == 0:
+    print("Divisible by 2 only =",num)
+elif num % 3 == 0:
+    print("Divisible by 3 only =",num)
+else:
+    print("Divisible by neither 2 nor 3 =",num)
+```
