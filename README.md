@@ -918,3 +918,48 @@ elif opr == '/':
 else:
     print("Please enter the Correct Operator")
 ```
+## 117. Find the largest among four numbers.
+```python
+a=int(input("Enter the first number = "))
+b=int(input("Enter the second number = "))
+c=int(input("Enter the third number = "))
+d=int(input("Enter the fourth number = "))
+if a >= b and a >= c and a >= d:
+    print("Largest number = ",a)
+elif b >= a and b >= c and b >= d:
+    print("Largest number = ",b)      # Simple and essay
+elif c >= a and c >= b and c >= d:
+    print("Largest number = ",c)
+else:
+    print("Largest number = ",d)
+    # if a < b:  
+#     if b < c:
+#         if c < d:
+#             print("Largest number = ",d)
+#         else:
+#             print("Largest number = ",c)
+#     elif b < d:
+#         print("Largest number = ",d)
+#     else:
+#         print("Largest number = ",b)
+# elif a < c:
+#     if c < d:
+#         print("Largest number = ",d)
+#     else:
+#         print("Largest number = ",c)
+# elif a < d:
+#     print("Largest number = ",d)
+# else:
+#     print("Largest number =",a)
+```
+## 118. Check whether a number is positive, negative, or zero.
+``` python
+
+num=int(input("Please enter a number = "))
+if num > 0:
+    print("This number is positive")
+elif num < 0:
+    print("This number is negative")
+else:
+    print("This number is Zeer0")
+```            
