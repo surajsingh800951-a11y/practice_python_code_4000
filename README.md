@@ -961,5 +961,115 @@ if num > 0:
 elif num < 0:
     print("This number is negative")
 else:
-    print("This number is Zeer0")
-```            
+    print("This number is Zeero")
+``` 
+## 119. Check whether a year is a century year.
+```python
+year=int(input("Enter the year = "))
+if year % 100 == 0:
+    print("This is a Century Year")
+else:
+    print("This is not a century Year")
+```
+## 120. Calculate electricity bill based on units (simple slabs).
+```python
+units=int(input("Please Enter the units = "))
+bill=0
+if units < 0:
+    print("Invalid units")
+elif 0 <= units <= 100:
+    bill=units*5
+    print("Electricity Bill =",bill)
+elif 101 <= units <= 200:
+    bill=units*7
+    print("Electricity Bill =",bill)
+elif units < 0:
+    print("Invalid units")
+else:
+    bill=units*10
+    print("Electricity Bill =",bill)
+```
+## 121. Calculate discount based on purchase amount.
+```python
+amount=int(input("Enter the amount = "))
+discount=0
+if amount <= 0:
+    print("Invalid Amount")
+elif 1 <= amount < 1000:
+    discount=amount*5/100  # 5% Discount 
+    print("Discount =",discount)
+elif 1000 <= amount <= 5000:
+    discount=amount*10/100 # 10% Discount
+    print("Discount =",discount)
+else:
+    discount=amount*20/100 # 20% Discount 
+    print("Discount =",discount)
+```
+
+## 122. Check whether a triangle is valid using three angles.
+```python
+angle1=int(input("Enter the first Angle = "))
+angle2=int(input("Enter the second Angle = "))
+angle3=int(input("Enter the third Angle = "))
+add=angle1+angle2+angle3
+if angle1 > 0 and angle2 > 0 and angle3 > 0:
+    if add == 180:
+        print("This triangle is valid")
+    else:
+        print("This triangle is not valid")
+else:
+     print("This triangle is not valid")
+```
+## 123. Find the type of triangle (Equilateral, Isosceles, Scalene).
+```python
+sides1=int(input("Enter the first sides = "))
+sides2=int(input("Enter the second sides = "))
+sides3=int(input("Enter the third sides = "))
+if sides1+sides2 > sides3 and sides1+sides3 > sides2 and sides2+sides3 > sides1:
+    if sides1 == sides2 == sides3 :
+        print("Equilateral Triangle")
+    elif sides1 == sides2 or sides2 == sides3 or sides1 == sides3 :
+        print("Isosceles Triangle")
+    else:
+        print("Scalene Triangle")
+else:
+    print("Invalid Triangle")
+```
+## 124. Check whether a character is an alphabet, digit, or special character.
+```python
+char=input("Enter the character = ")
+if len(char) == 1:
+    if 'a' <= char <= 'z' or 'A' <= char <= 'Z':
+        print("Alphabet =",char)
+    elif '0' <= char <= '9':
+        print("Digit =",char)
+    else:
+        print("Special character")
+else:
+    print("Please enter the only one character")  
+```
+## 125. Find the second largest among three numbers.
+```python
+a=int(input("Enter the first number = "))
+b=int(input("Enter the second number = "))
+c=int(input("Enter the three number = "))
+if a >= b and a >= c:
+    if b >= c:
+        print("Second Largest Number =",b)
+    else:
+        print("Second Largest Number =",c)
+elif b >= a and b >= c:
+    if a <= c:
+        print("Second Largest Number =",c)
+    else:
+        print("Second Largest Number =",a)
+else:
+    if a <= b:
+        print("Second Largest Number =",b)
+    else:
+        print("Second Largest Number =",a)
+```
+
+    
+
+
