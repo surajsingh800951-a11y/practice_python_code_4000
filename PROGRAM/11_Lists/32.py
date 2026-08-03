@@ -1,4 +1,4 @@
-## 32. Print the first element of a list.
-listt=[12,32,45,65,76,76,4,54,34,66]
-#index[0, 1, 2,  3, 4,5, 6, 7, 8, 9]
-print("first element ",listt[0])
+## 32. Sort a list in descending order.
+listt=[12,34,54,65,67,32,54,65,23,54,34,43,3]
+listt.sort(reverse=True)
+print(listt)

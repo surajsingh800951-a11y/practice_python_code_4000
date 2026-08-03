@@ -1,3 +1,7 @@
-# 30. Create a list of 5 integers and print it.
-listt=[10,20,30,40,50]
-print("five integers number ",listt)
+## 30. Print only the odd numbers from a list.
+listt=[12,23,56,58,52,36,68,59,74,25,36,59,54,35]
+print("Only Odd number")
+for i in listt:
+    if i % 2 != 0:
+        print(i)
+

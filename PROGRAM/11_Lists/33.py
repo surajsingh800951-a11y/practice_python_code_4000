@@ -1,4 +1,4 @@
-## 33. Print the last element of a list.
-listt=[12,32,45,65,76,76,4,54,34,66]
-#index[0, 1, 2,  3, 4,5, 6, 7, 8, 9]
-print("last element ",listt[-1])
+## 33. Reverse a list without using reverse().
+listt=[12,45,48,45,35,65,89,78,1,5]
+listt=listt[::-1] # slicing
+print(listt)

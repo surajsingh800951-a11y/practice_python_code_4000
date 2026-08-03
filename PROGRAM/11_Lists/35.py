@@ -1,3 +1,6 @@
-## 35. Print the length of a list using len().
-listt=[12,32,45,65,76,76,4,54,34,66]
-print("lenght ",len(listt))
+## 35. Merge three lists into one list.
+listt1=[14,25,35]
+listt2=[12,56]
+listt3=[15,2,36]
+listt=listt1+listt2+listt3
+print("Three list merge ",listt)
