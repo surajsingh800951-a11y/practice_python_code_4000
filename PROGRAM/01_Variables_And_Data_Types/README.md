@@ -78,4 +78,4 @@ Q8.py
 
 # 🚀 Next Chapter
 
-➡️ **02_Input_Output**
+➡️ *02_Operators**
