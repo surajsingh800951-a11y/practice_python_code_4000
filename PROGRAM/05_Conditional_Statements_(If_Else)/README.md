@@ -1,14 +1,14 @@
-# 🔀 Conditional Statements (If / Else)
+# 🔀 Conditional Statements (if / elif / else)
 
-> Learn Python decision making by solving **30 carefully selected practice questions**.
+> Learn how to make decisions in Python using conditional statements.
 
 ---
 
 # 📖 About
 
-Conditional statements are used to make decisions in Python. They execute different blocks of code depending on whether a condition is `True` or `False`.
+Conditional statements allow a program to make decisions based on different conditions.
 
-This chapter covers the complete fundamentals of Python conditional statements through practical coding questions.
+Using `if`, `elif`, and `else`, Python executes different blocks of code depending on whether a condition is True or False.
 
 ---
 
@@ -16,97 +16,82 @@ This chapter covers the complete fundamentals of Python conditional statements t
 
 After completing this chapter, you will be able to:
 
-- Write `if` statements
-- Write `if...else` statements
-- Write `if...elif...else` statements
-- Understand nested `if`
-- Use comparison operators
-- Use logical operators (`and`, `or`, `not`)
-- Solve beginner-level decision-making problems
+- Understand decision making in Python
+- Use if statements
+- Use if...else statements
+- Use if...elif...else statements
+- Use nested if statements
+- Solve real-world conditional problems
 
 ---
 
-# 📚 Concepts Covered
+# 📚 Topics Covered
 
 - if Statement
 - if...else Statement
 - if...elif...else Statement
 - Nested if
 - Comparison Operators
-- Logical Operators
+- Logical Operators (`and`, `or`, `not`)
+- Multiple Conditions
 - Decision Making
 
 ---
 
 # 📝 Practice Questions
 
-| No. | Question | Status |
-|:--:|-----------|:------:|
-| 96 | Check whether a number is positive or negative | ✅ |
-| 97 | Check whether a number is even or odd | ✅ |
-| 98 | Check whether a person is eligible to vote | ✅ |
-| 99 | Find the greater of two numbers | ✅ |
-| 100 | Find the smaller of two numbers | ✅ |
-| 101 | Check whether a number is divisible by 5 | ✅ |
-| 102 | Check whether a number is divisible by 3 and 5 | ✅ |
-| 103 | Check whether a character is a vowel or consonant | ✅ |
-| 104 | Check whether a year is a leap year | ✅ |
-| 105 | Check whether a number is a multiple of 10 | ✅ |
-| 106 | Find the largest of three numbers | ✅ |
-| 107 | Find the smallest of three numbers | ✅ |
-| 108 | Check whether a number is a two-digit number | ✅ |
-| 109 | Check whether a number is a three-digit number | ✅ |
-| 110 | Check whether a number is divisible by both 2 and 7 | ✅ |
-| 111 | Calculate grade based on marks | ✅ |
-| 112 | Check whether a person is a child, teenager, adult, or senior citizen | ✅ |
-| 113 | Check whether a character is uppercase or lowercase | ✅ |
-| 114 | Check whether a number is divisible by 2, 3, both, or neither | ✅ |
-| 115 | Find whether the entered alphabet is a vowel | ✅ |
-| 116 | Create a simple calculator | ✅ |
-| 117 | Find the largest among four numbers | ✅ |
-| 118 | Check whether a number is positive, negative, or zero | ✅ |
-| 119 | Check whether a year is a century year | ✅ |
-| 120 | Calculate electricity bill based on units | ✅ |
-| 121 | Calculate discount based on purchase amount | ✅ |
-| 122 | Check whether a triangle is valid | ✅ |
-| 123 | Find the type of triangle | ✅ |
-| 124 | Check whether a character is alphabet, digit, or special character | ✅ |
-| 125 | Find the second largest among three numbers | ✅ |
+- [x] Q1. Check whether a number is positive or negative.
+- [x] Q2. Check whether a number is even or odd.
+- [x] Q3. Check whether a person is eligible to vote.
+- [x] Q4. Find the greater of two numbers.
+- [x] Q5. Find the smaller of two numbers.
+- [x] Q6. Check whether a number is divisible by 5.
+- [x] Q7. Check whether a number is divisible by 3 and 5.
+- [x] Q8. Check whether a character is a vowel or consonant.
+- [x] Q9. Check whether a year is a leap year.
+- [x] Q10. Check whether a number is a multiple of 10.
+- [x] Q11. Find the largest of three numbers.
+- [x] Q12. Find the smallest of three numbers.
+- [x] Q13. Check whether a number is a two-digit number.
+- [x] Q14. Check whether a number is a three-digit number.
+- [x] Q15. Check whether a number is divisible by both 2 and 7.
+- [x] Q16. Calculate grade based on marks.
+- [x] Q17. Check whether a person is a child, teenager, adult, or senior citizen.
+- [x] Q18. Check whether a character is uppercase or lowercase.
+- [x] Q19. Check whether a number is divisible by 2, 3, both, or neither.
+- [x] Q20. Check whether an alphabet is a vowel using multiple conditions.
+- [x] Q21. Create a simple calculator.
+- [x] Q22. Find the largest among four numbers.
+- [x] Q23. Check whether a number is positive, negative, or zero.
+- [x] Q24. Check whether a year is a century year.
+- [x] Q25. Calculate electricity bill based on units.
+- [x] Q26. Calculate discount based on purchase amount.
+- [x] Q27. Check whether a triangle is valid using three angles.
+- [x] Q28. Find the type of triangle.
+- [x] Q29. Check whether a character is an alphabet, digit, or special character.
+- [x] Q30. Find the second largest among three numbers.
 
 ---
 
 # 📊 Progress
 
-| Total Questions | Completed | Remaining | Status |
-|---------------:|----------:|----------:|:------:|
-| 30 | 30 | 0 | ✅ Completed |
+**Completed:** 30 / 30 ✅
+
+**Status:** Completed 🎉
 
 ---
 
 # 📂 Programs
 
-Every question has its own Python program.
-
 ```
-096.py
-097.py
-098.py
+Q1.py
+Q2.py
 ...
-125.py
+Q30.py
 ```
 
 ---
 
-# 🚀 What's Next?
+# 🚀 Next Chapter
 
-➡️ **06_For_Loop**
-
-The next chapter focuses on repetition using Python's `for` loop.
-
----
-
-## ⭐ Notes
-
-- Every program is written in Python.
-- Questions are arranged from easy to intermediate level.
-- This chapter is part of the **Python 4000 Practice Questions** repository.
+➡️ **06_Type_Casting**

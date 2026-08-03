@@ -1,4 +1,4 @@
-## 124. Check whether a character is an alphabet, digit, or special character.
+## 29. Check whether a character is an alphabet, digit, or special character.
 char=input("Enter the character = ")
 if len(char) == 1:
     if 'a' <= char <= 'z' or 'A' <= char <= 'Z':

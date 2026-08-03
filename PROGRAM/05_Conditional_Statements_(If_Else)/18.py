@@ -1,4 +1,4 @@
-## 113. Check whether a character is uppercase or lowercase.
+## 18. Check whether a character is uppercase or lowercase.
 char=input("Enter the character = ")
 if len(char) != 1:
     print("Please enter only one character")

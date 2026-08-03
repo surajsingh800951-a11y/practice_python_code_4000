@@ -1,4 +1,4 @@
-## 105. Check whether a number is a multiple of 10.
+## 10. Check whether a number is a multiple of 10.
 num=int(input("Enter a number "))
 if num % 10 == 0:
     print("This number is a multiple of 10 =",num)

@@ -1,4 +1,4 @@
-## 116. Create a simple calculator (+, -, *, /).
+## 21. Create a simple calculator (+, -, *, /).
 num1=int(input("Enter the first number = "))
 opr=input("Please select an operator ( + , - , * , / , % ) = ")
 num2=int(input("Enter the second number = "))

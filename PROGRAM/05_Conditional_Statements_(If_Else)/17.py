@@ -1,6 +1,12 @@
-# 17. Check whether a number is even or odd.
-num=int(input("Enter the number = "))
-if num % 2 ==0:
-    print("Even Number")
+## 17. Check whether a person is a child, teenager, adult, or senior citizen.
+age=int(input("Enter your Age = "))
+if age < 0:
+    print("Invalid Age")
+elif 0 <= age <= 12:
+    print("Child")
+elif 13 <= age < 20:
+    print("Teenager")
+elif 20 <= age < 60:
+    print("Adult")
 else:
-    print("Odd Number")
+    print("Senior Citizen")

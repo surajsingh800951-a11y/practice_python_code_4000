@@ -1,4 +1,4 @@
-## 121. Calculate discount based on purchase amount.
+## 26. Calculate discount based on purchase amount.
 amount=int(input("Enter the amount = "))
 discount=0
 if amount <= 0:

@@ -1,4 +1,4 @@
-## 123. Find the type of triangle (Equilateral, Isosceles, Scalene).
+## 28. Find the type of triangle (Equilateral, Isosceles, Scalene).
 sides1=int(input("Enter the first sides = "))
 sides2=int(input("Enter the second sides = "))
 sides3=int(input("Enter the third sides = "))

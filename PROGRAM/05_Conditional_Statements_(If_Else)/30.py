@@ -1,4 +1,4 @@
-## 125. Find the second largest among three numbers.
+## 30. Find the second largest among three numbers.
 a=int(input("Enter the first number = "))
 b=int(input("Enter the second number = "))
 c=int(input("Enter the three number = "))

@@ -1,4 +1,4 @@
-## 120. Calculate electricity bill based on units (simple slabs).
+## 25. Calculate electricity bill based on units (simple slabs).
 units=int(input("Please Enter the units = "))
 bill=0
 if units < 0:
