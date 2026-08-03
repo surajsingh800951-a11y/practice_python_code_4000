@@ -1,4 +1,4 @@
-## 90. Write a program to convert an empty string into a boolean.
+## 15. Write a program to convert an empty string into a boolean.
 my_str="" # empty string
 print(type(my_str))  # Output <class 'str'>
 my_bool=bool(my_str) 

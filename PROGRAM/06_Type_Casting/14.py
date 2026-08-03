@@ -1,4 +1,4 @@
-## 89. Write a program to convert the integer 1 into a boolean.
+## 14. Write a program to convert the integer 1 into a boolean.
 num=1
 print(type(num)) # Output  <class 'int'>
 

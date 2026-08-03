@@ -1,4 +1,4 @@
-## 78. Write a program to convert an integer into a string.
+## 3. Write a program to convert an integer into a string.
 num=18 # integer value
 print(type(num)) # Output <class 'int'>
 print(str(num)) # String Value 18

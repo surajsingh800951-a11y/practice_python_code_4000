@@ -1,4 +1,4 @@
-## 86. Write a program to convert a set into a list.
+## 11. Write a program to convert a set into a list.
 my_set={ 12,34,56,23,45} 
 print(type(my_set))  # Output <class 'set'>
 my_list=list(my_set) 

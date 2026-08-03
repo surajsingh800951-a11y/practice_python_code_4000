@@ -1,4 +1,4 @@
-## 87. Write a program to convert a tuple into a set.
+## 12. Write a program to convert a tuple into a set.
 my_tuple=(12,34,23,65,78,56)
 print(type(my_tuple)) # Output <class 'tuple'>
 my_set=set(my_tuple)

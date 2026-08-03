@@ -1,4 +1,4 @@
-## 95. Write a program to convert a tuple containing duplicate values into a set. --
+## 20. Write a program to convert a tuple containing duplicate values into a set. --
 my_tuple=(12,34,56,2,4,22,5,2,2,2,34,54,54)
 print(type(my_tuple)) # Output <class 'tuple'>
 my_set=set(my_tuple)
