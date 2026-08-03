@@ -1,4 +1,4 @@
-## 75. Write a program to print the data type of the result after adding an int and a float.
+## 12. Write a program to print the data type of the result after adding an int and a float.
 num=12
 f_num=20.5 # float value 
 result=num+f_num

@@ -1,4 +1,4 @@
-## 73. Write a program to perform arithmetic operations between True and False.
+## 10. Write a program to perform arithmetic operations between True and False.
 a=False
 b=True
 add=a+b
