@@ -94,4 +94,4 @@ Q30.py
 
 # 🚀 Next Chapter
 
-➡️ **06_Type_Casting**
+➡️ **07_For_Loop**

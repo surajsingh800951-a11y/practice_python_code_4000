@@ -90,4 +90,4 @@ Q20.py
 
 # 🚀 Next Chapter
 
-➡️ **07_For_Loop**
+➡️ **06_Conditional_Statements_(If_Else)**
