@@ -6,9 +6,9 @@
 
 # 📖 About
 
-Variables are used to store data in memory, and data types define the type of data stored in a variable.
+Variables are used to store values in memory, while data types define the type of data stored in a variable.
 
-This chapter covers the basics of Python programming, including creating variables, understanding different data types, and displaying output.
+This chapter is the starting point of Python programming and helps you understand how to create variables and work with different types of data.
 
 ---
 
@@ -20,7 +20,7 @@ After completing this chapter, you will be able to:
 - Understand Python data types
 - Store values in variables
 - Display output using `print()`
-- Use the `type()` function
+- Check data types using `type()`
 
 ---
 
@@ -38,26 +38,22 @@ After completing this chapter, you will be able to:
 
 # 📝 Practice Questions
 
-| No. | Question | Status |
-|:--:|-----------|:------:|
-| 1 | Create a variable name and store your name in it, then print it. | ✅ |
-| 2 | Store 10 and 20 in two variables `a` and `b`, then print their sum. | ✅ |
-| 3 | Create a variable `age` and store your age, then print it. | ✅ |
-| 4 | Create an integer variable and print its data type. | ✅ |
-| 5 | Create a string variable and print its data type. | ✅ |
-| 6 | Create a float variable and print its data type. | ✅ |
-| 7 | Create a boolean variable and print its data type. | ✅ |
-| 8 | Store your name and age in variables and print a sentence. | ✅ |
+- [x] Q1. Create a variable name and store your name in it, then print it.
+- [x] Q2. Store 10 and 20 in two variables and print their sum.
+- [x] Q3. Create a variable age and print it.
+- [x] Q4. Create an integer variable and print its data type.
+- [x] Q5. Create a string variable and print its data type.
+- [x] Q6. Create a float variable and print its data type.
+- [x] Q7. Create a boolean variable and print its data type.
+- [x] Q8. Store your name and age in variables and print a sentence.
 
 ---
 
 # 📊 Progress
 
-| Total Questions | Completed | Remaining |
-|----------------:|----------:|----------:|
-| 8 | 8 | 0 |
+**Completed:** 8 / 8 ✅
 
-**Status:** ✅ Completed
+**Status:** Completed 🎉
 
 ---
 
@@ -78,4 +74,4 @@ Q8.py
 
 # 🚀 Next Chapter
 
-➡️ *02_Operators**
+➡️ **02_Operators**
