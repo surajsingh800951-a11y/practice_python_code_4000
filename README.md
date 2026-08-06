@@ -34,9 +34,9 @@ The objective of this repository is to build a strong Python foundation through 
 ```
 Overall Progress
 
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-125 / 4000 Questions
+135 / 4000 Questions
 ```
 
 ---
@@ -50,7 +50,7 @@ Overall Progress
 | 📁 03 | Input / Output | Planned | ⏳ |
 | 📁 04 | Type Conversion | 12 | ✅ Completed |
 | 📁 05 | Type Casting | 20 | ✅ Completed |
-| 📁 06 | Conditional Statements (if / else) | 30 | ✅ Completed |
+| 📁 06 | Conditional Statements (if / else) | 30+10 | ✅ Completed |
 | 📁 07 | For Loop | 50 | 🚀 In Progress |
 | 📁 08 | While Loop | Planned | ⏳ |
 | 📁 09 | Functions | Planned | ⏳ |
