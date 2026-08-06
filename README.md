@@ -135,7 +135,7 @@ Every topic folder includes:
 | Repository Created | ✅ |
 | Topic-wise Folder Structure | ✅ |
 | First 100 Questions Solved | ✅ |
-| 125 Questions Completed | ✅ |
+| 135 Questions Completed | ✅ |
 | 200 Questions | 🎯 Next Target |
 | 500 Questions | 🔒 Locked |
 | 1000 Questions | 🔒 Locked |
