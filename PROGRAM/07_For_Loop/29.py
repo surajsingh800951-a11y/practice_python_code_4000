@@ -1,0 +1,1 @@
+# 29. Print numbers from 1 to 100 divisible by 2 but not by 3.
