@@ -1,1 +1,12 @@
-# 50. Print an inverted star pattern.
+# 50. Print a square star pattern.
+'''
+********
+********
+********
+********
+'''
+n=int(input("Enter a number = "))
+for i in range(n):
+    for j in range(n):
+        print("*",end=" ")
+    print()

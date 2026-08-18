@@ -1,1 +1,13 @@
-# 49. Print a right triangle star pattern.
+# 49. Print an inverted star pattern.
+'''
+*****
+****
+***
+**
+*
+'''
+n=int(input("Enter a number = "))
+for i in range(n,0,-1):
+    for j in range(i):
+        print("*",end=" ")
+    print()
