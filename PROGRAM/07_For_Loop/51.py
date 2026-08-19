@@ -1,9 +1,9 @@
 # 51. Print a rectangle star pattern.
 '''
-********
-********
-********
-********
+*************
+*************
+*************
+*************
 '''
 n=int(input("Enter a number = "))
 for i in range(n):

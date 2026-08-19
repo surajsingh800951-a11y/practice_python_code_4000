@@ -1,0 +1,9 @@
+# 56. Print a hollow rectangle pattern.
+n=int(input("Enter a number = "))
+for i in range(1,n+1):
+    for j in range(1,n*2+1):
+        if i==1 or i==n or j==1 or j==n*2:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print() 
