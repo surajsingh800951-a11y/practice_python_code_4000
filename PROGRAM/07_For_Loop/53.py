@@ -6,7 +6,7 @@
    * * 
     * 
 '''
-n=int(input("Enter a number = "))
+n=int(input("Enter a number = ")) #5 -4=1
 for i in range(n,0,-1):
     for j in range(n-i):
         print(" ",end="")

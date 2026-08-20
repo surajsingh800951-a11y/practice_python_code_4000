@@ -15,3 +15,4 @@ for i in range(8):
     elif num > prev:
         prev=num
 print("Second largest number =",prev)
+

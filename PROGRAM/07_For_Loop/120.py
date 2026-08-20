@@ -57,3 +57,5 @@
 #     print("False")
     
 # # != ye num 800 ke barabar nhi hai
+
+# git add .          git commit -m "first commit"    git push -u origin main  
