@@ -59,3 +59,15 @@
 # # != ye num 800 ke barabar nhi hai
 
 # git add .          git commit -m "first commit"    git push -u origin main  
+ticket=35
+#n=int(input("Enter the ammount = "))
+# if ticket == 800: 
+#     print("BOOK")
+# else:
+#     print("Nhi book huaa")
+
+# child=4
+# if child >= 5:
+#     print("Polio pilaya jayega")
+ 
+ # 69
