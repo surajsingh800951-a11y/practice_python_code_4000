@@ -71,3 +71,9 @@ ticket=35
 #     print("Polio pilaya jayega")
  
  # 69
+ 
+ 
+ 
+# git add .                                                                                                 
+# git commit -m "first commit" 
+# git push origin main  
