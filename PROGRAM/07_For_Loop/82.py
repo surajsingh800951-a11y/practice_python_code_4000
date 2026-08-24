@@ -1,5 +1,5 @@
 # 82. Count digits in a string.
-string=input("Enter your name = ")
+string=input("Enter a string = ")
 count=0
 for i  in string:
     if '0' <= i <= '9':

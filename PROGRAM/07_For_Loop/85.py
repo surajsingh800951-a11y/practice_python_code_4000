@@ -1,5 +1,5 @@
 # 85. Count the occurrence of a given character.
-string=input("Enter your name = ")
+string=input("Enter a string = ")
 char=str(input("Enter any one character = "))
 count=0
 for i in string:

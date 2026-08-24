@@ -1,5 +1,5 @@
 # 79. Count consonants in a string.
-string=str(input("Enter your name = "))
+string=str(input("Enter a string = "))
 count=0
 for i in string:
     if (i >='a'and i<='z') or (i>='A' and i<='Z'):  # if i.isalpha() and i not in "aeiou": 

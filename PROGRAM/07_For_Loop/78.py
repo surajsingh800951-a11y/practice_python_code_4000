@@ -1,5 +1,5 @@
 # 78. Count vowels in a string.
-string=str(input("Enter your name = "))
+string=str(input("Enter a string =  "))
 count=0
 for i in string:
     if 'a' == i or 'o' == i or 'u' == i or 'i' == i or 'e' == i:
