@@ -77,3 +77,27 @@ ticket=35
 # git add .                                                                                                 
 # git commit -m "first commit" 
 # git push origin main  
+
+
+
+# Print a 5×5 star square.
+# Print 12345 for 5 rows.
+# Print this pattern:
+# 11111
+# 22222
+# 33333
+# 44444
+# 55555
+# Print multiplication tables from 1 to 10.
+# Print multiplication tables 1–10 in row-column format.
+# Print a factor table for numbers 1 to 5.
+# Print a square table for numbers 1 to 5.
+# Print a cube table for numbers 1 to 5.
+# Print a 5×5 checkerboard pattern.
+# Print a number pyramid.
+# Print an alphabet pyramid.
+# Print a number diamond.
+# Print an alphabet diamond.
+# Print a hollow square.
+# Print a hollow rectangle.
+# Print a hollow triangle.

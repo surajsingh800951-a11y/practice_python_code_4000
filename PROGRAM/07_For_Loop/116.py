@@ -1,0 +1,1 @@
+# 116. Check whether all digits are even.

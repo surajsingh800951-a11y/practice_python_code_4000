@@ -1,0 +1,1 @@
+# 106. Print the cube of every digit.
