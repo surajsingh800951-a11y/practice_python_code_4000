@@ -4,4 +4,4 @@ count=0
 for i in n:
     if int(i) % 2 != 0:
         count+=1
-print(count)
+print("Count odd digit =",count)

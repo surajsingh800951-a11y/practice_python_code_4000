@@ -6,6 +6,7 @@ for i in str(n):
 print("Count =",count)
 
 # Logic
+
 # n=98765
 # count=0
 # for i in range(len(str(n))):
