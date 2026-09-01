@@ -10,4 +10,3 @@ if count == 2:
     print("Number is prime")
 else:
     print("Number is not prime")
-       
