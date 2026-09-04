@@ -1,0 +1,231 @@
+## 1. Print numbers from 1 to 10.
+# 2 Print numbers from 1 to 20.
+# 3. Print numbers from 10 to 1.
+# 4 Print even numbers from 1 to 20.
+# 5 Print odd numbers from 1 to 20.
+# 6 Print numbers from 1 to n.
+# 7 Print numbers from n to 1.
+# 8. Count from 50 to 100.
+# 9. Find the sum of numbers from 1 to 100.
+# 10. Find the product of numbers from 1 to n.
+#11. Print the squares of numbers from 1 to n.
+# 12. Print the cubes of numbers from 1 to n.
+# 13. Print multiples of 5 from 1 to 100.
+# 14. Print multiples of 3 from 1 to 50.
+# 15. Print numbers divisible by both 3 and 5 from 1 to 100.
+# 16. Print every third number from 1 to 100.
+# 17. Print numbers from 100 to 1 with a step of 2.
+# 18. Print numbers from 1 to 100 except multiples of 5.
+# 19. Print the multiplication table of a number.
+# 20. Print the first 10 multiples of a number.
+# 21. Count even numbers between 1 and n.
+# 22. Count odd numbers between 1 and n.
+# 23. Find the sum of even numbers from 1 to n.
+# 24. Find the sum of odd numbers from 1 to n.
+# 25. Find the factorial of n.
+# 26. Find the average of numbers from 1 to n.
+# 27. Print multiples of 7 from 1 to n.
+# 28. Print numbers from 1 to 100 divisible by 4.
+# 29. Print numbers from 1 to 100 divisible by 2 but not by 3.
+# 30. Print numbers from 1 to 100 divisible by 3 but not by 5.
+# 31. Print numbers from 1 to n divisible by both 2 and 3.
+# 32. Print perfect squares from 1 to n.
+# 33. Print perfect cubes from 1 to n.
+# 34. Print the double of every number from 1 to n.
+# 35. Print the half of every number from 1 to n.
+# 36. Take 5 numbers from the user and find their sum.
+# 37. Take 5 numbers from the user and find the largest number
+# 38. Take 5 numbers from the user and find the smallest number.
+# 39. Take n numbers from the user and find their sum.
+# 40. Take n numbers and count positive numbers.
+# 41. Take n numbers and count negative numbers.
+# 42. Take n numbers and count zeros.
+# 43. Take n numbers and find the sum of even numbers.
+# 44. Take n numbers and find the sum of odd numbers.
+# 45. Take 10 numbers and find the second-largest number.
+# 46. Take 10 numbers and find the second-smallest number.
+# 47. Take 10 numbers and count positive, negative, and zero values.
+# 48. Print a right triangle star pattern.
+# 49. Print an inverted star pattern.
+# 50. Print a square star pattern.
+# 51. Print a rectangle star pattern.
+# 52. Print a pyramid star pattern.
+# 53. Print an inverted pyramid pattern.
+# 54. Print a spaced star triangle.
+# 55. Print a hollow square pattern.
+# 56. Print a hollow rectangle pattern.
+# 57. Print a hollow triangle pattern.
+# 58. Print a diamond star pattern.
+# 59. Print this number triangle:
+# 60. Print this reverse number triangle:
+# 61. Print this same-number triangle:
+# 62. Print this reverse number pattern:
+# 63. Print this reverse sequence pattern:
+# 64. Print Floyd's Triangle.
+# 65. Print a number pyramid.
+# 66. Print a reverse number pyramid.
+# 67. Print a number diamond pattern.
+# 68. Print this pattern:
+# 69. Print alphabets from A to Z.
+# 70. Print alphabets from a to z.
+# 71. Print ASCII values of A to Z.
+# 72. Print an alphabet triangle.
+# 73. Print a reverse alphabet triangle.
+# 74. Print a same-alphabet triangle.
+# 75. Print an alphabet pyramid.
+# 76. Print an alphabet diamond.
+# 77. Print every character of a string separately.
+# 78. Count vowels in a string.
+# 79. Count consonants in a string.
+# 80. Count uppercase letters in a string.
+# 81. Count lowercase letters in a string.
+# 82. Count digits in a string.
+# 83. Count spaces in a string.
+# 84. Reverse a string using a for loop.
+# 85. Count the occurrence of a given character.
+# 86. Print the frequency of every character.
+# 87. Print duplicate characters.
+# 88. Print unique characters.
+# 89. Find the first repeating character.
+# 90. Find the first non-repeating character.
+# 91. Find the most frequent character.
+# 92. Find the least frequent character.
+# 93. Print common characters between two strings.
+# 94. Find the sum of digits.
+# 95. Find the product of digits.
+# 96. Reverse a number.
+# 97. Check whether a number is a palindrome.
+# 98. Find the largest digit.
+# 99. Find the smallest digit.
+# 100. Count the digits of a number.
+# 101. Count even digits.
+# 102. Count odd digits.
+# 103. Count how many times 0 appears.
+# 104. Find the average of digits.
+# 105. Print the square of every digit.
+# 106. Print the cube of every digit.
+# 107. Print every digit separately.
+# 108. Print digits in reverse order.
+# 109. Find the sum of the first and last digit.
+# 110. Find the product of the first and last digit.
+# 111. Find the difference between the largest and smallest digit.
+# 112. Find the second-largest digit.
+# 113. Find the second-smallest digit.
+# 114. Count distinct digits.
+# 115. Check whether any digit is repeated.
+# 116. Check whether all digits are even.
+# 117. Check whether all digits are odd.
+# 118. Find which digits from 0 to 9 are present.
+# 119. Print digits in ascending order.
+# 120. Print digits in descending order.
+# 121. Count how many times the largest digit appears.
+# 122. Find the sum of even digits and odd digits separately.
+# 123. Check whether the first and last digits are the same.
+# 124. Check whether a number is prime.
+# 125. Print all prime numbers from 1 to 100.
+# 126. Print all prime numbers between two numbers.
+# 127. Count prime numbers between two numbers.
+# 128. Find all factors of a number.
+# 129. Find the sum of factors.
+# 130. Count the factors of a number.
+# 131. Check whether a number is perfect.
+# 132. Print all perfect numbers from 1 to n.
+# 133. Find the sum of perfect numbers.
+# 134. Check whether a number is Armstrong.
+# 135. Print all Armstrong numbers from 1 to n.
+# 136. Find the sum of Armstrong numbers.
+# 137. Print all palindrome numbers from 1 to n.
+# 138. Count palindrome numbers.
+# 139. Find the sum of palindrome numbers.
+# 140. Find the sum of all prime numbers from 1 to n.
+# 141. Find the prime factorization of a number.
+# 142. Find the HCF/GCD of two numbers.
+# 143. Find the LCM of two numbers.
+# 144. Check whether two numbers are co-prime.
+# 145. Print the Fibonacci series.
+# 146. Print the first n Fibonacci numbers.
+# 147. Print only even Fibonacci numbers.
+# 148. Find the sum of the series 1 + 2 + 3 + ... + n.
+# 149. Find the sum of the odd-number series.
+# 150. Find the sum of the even-number series.
+# 151. Find the sum 1  + 2  + 3  + ... + n .
+# 152. Find the sum 1  + 2  + 3  + ... + n .
+# 153. Print the series 1, 11, 111, 1111....
+# 154. Find the sum of the series 1 + 11 + 111 + 1111....
+# 155. Print the series 2, 4, 8, 16, 32....
+# 156. Print the first n terms of 1, 2, 4, 8....
+# 157. Print factorial values from 1 to n.
+# 158. Find the sum of factorial values from 1 to n.
+# 159. Print the running sum from 1 to n.
+# 160. Print the running product from 1 to n.
+# 161. Print digits in descending order.
+# 162. Count how many times the largest digit appears.
+# 163. Find the sum of even digits and odd digits separately.
+# 164. Check whether the first and last digits are the same.
+# 165. Check whether a number is prime.
+# 166. Print all prime numbers from 1 to 100.
+# 167. Print all prime numbers between two numbers.
+# 168. Count prime numbers between two numbers.
+# 169. Find all factors of a number.
+# 170. Find the sum of factors.
+# 171. Count the factors of a number.
+# 172. Check whether a number is perfect.
+# 173. Print all perfect numbers from 1 to n.
+# 174. Find the sum of perfect numbers.
+# 175. Check whether a number is Armstrong.
+# 176. Print all Armstrong numbers from 1 to n.
+# 177. Find the sum of Armstrong numbers.
+# 178. Print all palindrome numbers from 1 to n.
+# 179. Count palindrome numbers.
+# 180. Find the sum of palindrome numbers.
+# 181. Find the sum of all prime numbers from 1 to n.
+# 182. Find the prime factorization of a number.
+# 183. Find the HCF/GCD of two numbers.
+# 184. Find the LCM of two numbers.
+# 185. Check whether two numbers are co-prime.
+# 186. Print the Fibonacci series.
+# 187. Print the first n Fibonacci numbers.
+# 188. Print only even Fibonacci numbers.
+# 189. Find the sum of the series 1 + 2 + 3 + ... + n.
+# 190. Find the sum of the odd-number series.
+# 191. Find the sum of the even-number series.
+# 192. Find the sum 1  + 2  + 3  + ... + n .
+# 193. Find the sum 1  + 2  + 3  + ... + n .
+# 194. Print the series 1, 11, 111, 1111....
+# 195. Find the sum of the series 1 + 11 + 111 + 1111....
+# 196. Print the series 2, 4, 8, 16, 32....
+# 197. Print the first n terms of 1, 2, 4, 8....
+# 198. Print factorial values from 1 to n.
+# 199. Find the sum of factorial values from 1 to n.
+# 200. Print the running sum from 1 to n.
+# 201. Print the running product from 1 to n.
+# 202. Print multiplication tables from 1 to 10.
+# 203. Print multiplication tables 1 10 in row-column format.
+# 204. Print a factor table for numbers 1 to 5.
+# 205. Print a square table for numbers 1 to 5.
+# 206. Print a cube table for numbers 1 to 5.
+# 207. Print numbers from 1 to n whose digit sum is even.
+# 208. Print numbers from 1 to n whose digit sum is odd.
+# 209. Print numbers from 1 to n whose digit product is even.
+# 210. Print numbers from 1 to n whose digit product is odd.
+# 211. Print numbers from 1 to n whose first and last digits are the same.
+# 212. Print numbers from 1 to n whose digits are in ascending order.
+# 213. Print numbers from 1 to n whose digits are in descending order.
+# 214. Find the middle digit of a number.
+# 215. Count the distinct digits in a number.
+# 216. Check whether a number contains duplicate digits.
+# 217. Print the square and cube of every number from 1 to n.
+# 218. Print the number of factors for every number from 1 to n.
+# 219. Print the sum of factors for every number from 1 to n.
+# 220. Count Armstrong numbers between two numbers.
+# 221. Count palindrome numbers between two numbers.
+# 222. Print perfect numbers between two numbers.
+# 223. Count even and odd numbers between two numbers.
+# 224. Find the largest number from 1 to n.
+# 225. Find the smallest number from 1 to n.
+# 226. Find the product of numbers from 1 to n.
+# 227. For every number from 1 to n, check whether it is Prime, Perfect, Armstrong, or Palindrome.
+# 228. Print the digit sum of every number from 1 to n.
+# 229. Print the digit product of every number from 1 to n.
+n=1+2+3+4+5+6+7+8+9+153
+# # nested loop 
