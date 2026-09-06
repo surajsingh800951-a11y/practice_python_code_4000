@@ -1,7 +1,11 @@
 # 142. Find the HCF/GCD of two numbers.
-# 141. Find the prime factorization of a number.
-n = int(input("Enter a number = "))
-for i in range(2, n + 1):
-    while n % i == 0:
-        print(i, end=" ")
-        n = n // i
+num1=int(input("Enter first number = "))
+num2=int(input("Enter second number = "))
+n=min(num1,num2)
+hcf_n=0
+for i in range(1,n+1):
+    if num1 % i==0 and num2 % i ==0:
+        #hcf_n=max(hcf_n,i) # max function
+        if i > hcf_n:
+            hcf_n=i
+print("HCF =",hcf_n)          
