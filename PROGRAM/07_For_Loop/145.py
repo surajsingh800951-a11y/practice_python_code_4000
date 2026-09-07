@@ -5,3 +5,6 @@ c=0
 n=int(input("Enter number of terms = "))
 for i in range(0,n):
     print(c,end=" ") 
+    a=b 
+    b=c 
+    c=a+b 
