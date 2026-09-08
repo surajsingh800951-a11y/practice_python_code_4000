@@ -101,3 +101,11 @@ ticket=35
 # Print a hollow square.
 # Print a hollow rectangle.
 # Print a hollow triangle.
+
+# Print all elements of a list using negative indexing.
+n=[1,2,45,56,5,3,5,78,59,54,68,45,35,35,8]
+for i in range(-1,-16,-1): 
+    print(n[i])
+
+     
+    #  -3 -2 -1 0 1 2 3 4 
