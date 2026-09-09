@@ -1,6 +1,6 @@
 # 🔁 For Loop in Python
 
-> Learn repetition and iteration in Python using `for` loops through basic programming concepts, mathematical problems, strings, digits, number series, and pattern programming.
+> Learn repetition and iteration in Python using `for` loops through basic programming concepts, mathematical problems, strings, digits, number series, and patterns.
 
 ---
 
@@ -8,7 +8,26 @@
 
 The `for` loop is used to repeat a block of code for a specific number of times or to iterate through a sequence.
 
-In this chapter, you will practice `for` loops from basic counting programs to advanced problems involving numbers, strings, digits, mathematical series, and different types of patterns.
+This chapter contains practice problems ranging from basic loops to advanced problems involving numbers, digits, strings, mathematical series, and patterns.
+
+---
+
+# 🎯 Learning Objectives
+
+After completing this chapter, you will be able to:
+
+* Use `for` loops
+* Use `range()` with different start, stop, and step values
+* Use nested `for` loops
+* Work with numbers and digits
+* Work with strings and characters
+* Solve mathematical problems using loops
+* Create star patterns
+* Create number patterns
+* Create alphabet patterns
+* Solve programming problems using iteration
+
+---
 
 # 📚 Topics Covered
 
@@ -65,6 +84,7 @@ In this chapter, you will practice `for` loops from basic counting programs to a
 * [x] Q23. Find the sum of even numbers from 1 to n.
 * [x] Q24. Find the sum of odd numbers from 1 to n.
 * [x] Q25. Find the factorial of n.
+  `Hint: 5 → 5 × 4 × 3 × 2 × 1 = 120`
 * [x] Q26. Find the average of numbers from 1 to n.
 * [x] Q27. Print multiples of 7 from 1 to n.
 * [x] Q28. Print numbers from 1 to 100 divisible by 4.
@@ -85,7 +105,9 @@ In this chapter, you will practice `for` loops from basic counting programs to a
 * [x] Q43. Take n numbers and find the sum of even numbers.
 * [x] Q44. Take n numbers and find the sum of odd numbers.
 * [x] Q45. Take 10 numbers and find the second-largest number.
+  `Hint: 10, 20, 30, 40, 50 → 40`
 * [x] Q46. Take 10 numbers and find the second-smallest number.
+  `Hint: 10, 20, 30, 40, 50 → 20`
 * [x] Q47. Take 10 numbers and count positive, negative, and zero values.
 
 ---
@@ -336,7 +358,6 @@ n o p q r s t u v w x y z
 A = 65
 B = 66
 C = 67
-D = 68
 ...
 Z = 90
 ```
@@ -425,6 +446,7 @@ ABCDEFGHI
 * [x] Q95. Find the product of digits.
 * [x] Q96. Reverse a number.
 * [x] Q97. Check whether a number is a palindrome.
+  `Hint: 121 → 121`
 * [x] Q98. Find the largest digit.
 * [x] Q99. Find the smallest digit.
 * [x] Q100. Count the digits of a number.
@@ -440,23 +462,32 @@ ABCDEFGHI
 * [x] Q110. Find the product of the first and last digit.
 * [x] Q111. Find the difference between the largest and smallest digit.
 * [x] Q112. Find the second-largest digit.
+  `Hint: 5832 → 8`
 * [x] Q113. Find the second-smallest digit.
+  `Hint: 5832 → 3`
 * [x] Q114. Count distinct digits.
+  `Hint: 12234 → 1, 2, 3, 4`
 * [x] Q115. Check whether any digit is repeated.
+  `Hint: 12321 → Duplicate`
 * [x] Q116. Check whether all digits are even.
 * [x] Q117. Check whether all digits are odd.
 * [x] Q118. Find which digits from 0 to 9 are present.
 * [x] Q119. Print digits in ascending order.
+  `Hint: 42153 → 12345`
 * [x] Q120. Print digits in descending order.
+  `Hint: 42153 → 54321`
 * [x] Q121. Count how many times the largest digit appears.
+  `Hint: 887788 → 8 → 4 times`
 * [x] Q122. Find the sum of even digits and odd digits separately.
 * [x] Q123. Check whether the first and last digits are the same.
+  `Hint: 121 → Same`
 
 ---
 
 # 🔢 Prime, Factor & Special Numbers
 
 * [x] Q124. Check whether a number is prime.
+  `Hint: 7 → Prime`
 * [x] Q125. Print all prime numbers from 1 to 100.
 * [x] Q126. Print all prime numbers between two numbers.
 * [x] Q127. Count prime numbers between two numbers.
@@ -464,9 +495,11 @@ ABCDEFGHI
 * [x] Q129. Find the sum of factors.
 * [x] Q130. Count the factors of a number.
 * [x] Q131. Check whether a number is perfect.
+  `Hint: 6 → 1 + 2 + 3 = 6`
 * [x] Q132. Print all perfect numbers from 1 to n.
 * [x] Q133. Find the sum of perfect numbers.
 * [x] Q134. Check whether a number is Armstrong.
+  `Hint: 153 → 1³ + 5³ + 3³ = 153`
 * [x] Q135. Print all Armstrong numbers from 1 to n.
 * [x] Q136. Find the sum of Armstrong numbers.
 * [x] Q137. Print all palindrome numbers from 1 to n.
@@ -474,15 +507,20 @@ ABCDEFGHI
 * [x] Q139. Find the sum of palindrome numbers.
 * [x] Q140. Find the sum of all prime numbers from 1 to n.
 * [x] Q141. Find the prime factorization of a number.
+  `Hint: 60 → 2 × 2 × 3 × 5`
 * [x] Q142. Find the HCF/GCD of two numbers.
+  `Hint: 12, 18 → HCF = 6`
 * [x] Q143. Find the LCM of two numbers.
+  `Hint: 12, 18 → LCM = 36`
 * [x] Q144. Check whether two numbers are co-prime.
+  `Hint: 8, 15 → HCF = 1 → Co-Prime`
 
 ---
 
 # 🔢 Fibonacci & Series
 
 * [x] Q145. Print the Fibonacci series.
+  `Hint: 0, 1 → 1 → 2 → 3 → 5 → 8`
 * [x] Q146. Print the first n Fibonacci numbers.
 * [x] Q147. Print only even Fibonacci numbers.
 * [x] Q148. Find the sum of the series 1 + 2 + 3 + ... + n.
@@ -495,7 +533,9 @@ ABCDEFGHI
 * [x] Q155. Print the series 2, 4, 8, 16, 32....
 * [x] Q156. Print the first n terms of 1, 2, 4, 8....
 * [x] Q157. Print factorial values from 1 to n.
+  `Hint: 1! = 1 | 2! = 2 | 3! = 6 | 4! = 24 | 5! = 120`
 * [x] Q158. Find the sum of factorial values from 1 to n.
+  `Hint: 1! + 2! + 3! + 4! + 5! = 153`
 * [x] Q159. Print the running sum from 1 to n.
 * [x] Q160. Print the running product from 1 to n.
 
@@ -514,20 +554,31 @@ ABCDEFGHI
 * [x] Q169. Print numbers from 1 to n whose digit product is odd.
 * [x] Q170. Print numbers from 1 to n whose first and last digits are the same.
 * [x] Q171. Print numbers from 1 to n whose digits are in ascending order.
+  `Hint: 123, 1245 → Ascending`
 * [x] Q172. Print numbers from 1 to n whose digits are in descending order.
+  `Hint: 321, 5432 → Descending`
 * [x] Q173. Find the middle digit of a number.
+  `Hint: 12345 → 3`
 * [x] Q174. Count the distinct digits in a number.
+  `Hint: 12234 → 1, 2, 3, 4`
 * [x] Q175. Check whether a number contains duplicate digits.
+  `Hint: 12321 → Duplicate`
 * [x] Q176. Print the square and cube of every number from 1 to n.
 * [x] Q177. Print the number of factors for every number from 1 to n.
+  `Hint: 6 → 1, 2, 3, 6 → 4`
 * [x] Q178. Print the sum of factors for every number from 1 to n.
+  `Hint: 6 → 1 + 2 + 3 + 6 = 12`
 * [x] Q179. Count Armstrong numbers between two numbers.
+  `Hint: 100–500 → 153, 370, 371, 407`
 * [x] Q180. Count palindrome numbers between two numbers.
+  `Hint: 100–200 → 101, 111, 121, 131...`
 * [x] Q181. Print perfect numbers between two numbers.
+  `Hint: 1–100 → 6, 28`
 * [x] Q182. Count even and odd numbers between two numbers.
 * [x] Q183. Find the largest number from 1 to n.
 * [x] Q184. Find the smallest number from 1 to n.
 * [x] Q185. For every number from 1 to n, check whether it is Prime, Perfect, Armstrong, or Palindrome.
+  `Hint: 7 → Prime | 6 → Perfect | 153 → Armstrong | 121 → Palindrome`
 * [x] Q186. Print the digit sum of every number from 1 to n.
 * [x] Q187. Print the digit product of every number from 1 to n.
 
@@ -553,6 +604,7 @@ ABCDEFGHI
 # 🏆 Chapter Summary
 
 * ✅ Total Questions: **187**
+* ✅ Basic Programs: **47**
 * ✅ Star Patterns: **11**
 * ✅ Number Patterns: **10**
 * ✅ Alphabet Programs: **8**
