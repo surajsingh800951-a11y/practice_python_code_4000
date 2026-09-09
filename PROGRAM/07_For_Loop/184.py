@@ -1,1 +1,1 @@
-# 184. Find the LCM of two numbers.
+# 184. Find the smallest number from 1 to n.

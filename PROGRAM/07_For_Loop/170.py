@@ -1,1 +1,1 @@
-# 170. Find the sum of factors.
+# 170. Print numbers from 1 to n whose first and last digits are the same.

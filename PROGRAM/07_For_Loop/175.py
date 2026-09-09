@@ -1,1 +1,1 @@
-# 175. Check whether a number is Armstrong.
+# 175. Check whether a number contains duplicate digits.

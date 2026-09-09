@@ -1,1 +1,1 @@
-# 178. Print all palindrome numbers from 1 to n.
+# 178. Print the sum of factors for every number from 1 to n.

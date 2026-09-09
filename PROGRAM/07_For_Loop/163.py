@@ -1,1 +1,1 @@
-# 163. Find the sum of even digits and odd digits separately.
+# 163. Print a factor table for numbers 1 to 5.

@@ -1,1 +1,1 @@
-# 180. Find the sum of palindrome numbers.
+# 180. Count palindrome numbers between two numbers.

@@ -1,2 +1,1 @@
-# 161. Print digits in descending order.
- 
+# 161. Print multiplication tables from 1 to 10.

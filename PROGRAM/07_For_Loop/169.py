@@ -1,1 +1,1 @@
-# 169. Find all factors of a number.
+# 169. Print numbers from 1 to n whose digit product is odd.

@@ -1,1 +1,1 @@
-# 171. Count the factors of a number.
+# 171. Print numbers from 1 to n whose digits are in ascending order.

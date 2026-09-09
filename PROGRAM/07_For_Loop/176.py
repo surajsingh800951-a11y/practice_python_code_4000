@@ -1,1 +1,1 @@
-# 176. Print all Armstrong numbers from 1 to n.
+# 176. Print the square and cube of every number from 1 to n.

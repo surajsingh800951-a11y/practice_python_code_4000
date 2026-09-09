@@ -1,1 +1,1 @@
-# 187. Print the first n Fibonacci numbers.
+# 187. Print the digit product of every number from 1 to n.

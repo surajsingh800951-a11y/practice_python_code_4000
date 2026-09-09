@@ -1,1 +1,1 @@
-# 166. Print all prime numbers from 1 to 100.
+# 166. Print numbers from 1 to n whose digit sum is even.

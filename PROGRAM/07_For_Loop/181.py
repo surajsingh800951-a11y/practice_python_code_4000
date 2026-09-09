@@ -1,1 +1,1 @@
-# 181. Find the sum of all prime numbers from 1 to n.
+# 181. Print perfect numbers between two numbers.

@@ -1,1 +1,1 @@
-# 167. Print all prime numbers between two numbers.
+# 167. Print numbers from 1 to n whose digit sum is odd.

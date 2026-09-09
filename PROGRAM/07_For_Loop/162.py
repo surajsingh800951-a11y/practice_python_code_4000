@@ -1,1 +1,1 @@
-# 162. Count how many times the largest digit appears.
+# 162. Print multiplication tables 1–10 in row-column format.

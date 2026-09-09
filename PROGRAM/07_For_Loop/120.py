@@ -1,7 +1,13 @@
 # 120. Print digits in descending order.
-n=input("Enter a number = ")
-for i in range(10,-1,-1):
-    for j in n:
-        if str(i) == j:
-            print(j)
-    
+n=int(input("Enter a number = "))
+digits=[]
+for i in range(len(str(n))):
+    digit=n % 10
+    n=n // 10
+    digits.append(digit)
+for i in range(len(digits)):
+    for j in range(i+1,len(digits)):
+        if digits[i] < digits[j]:
+            digits[i],digits[j]=digits[j],digits[i]
+for i in range(len(digits)):
+    print(digits[i],end="")

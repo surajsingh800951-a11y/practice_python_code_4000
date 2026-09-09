@@ -1,1 +1,1 @@
-# 164. Check whether the first and last digits are the same.
+# 164. Print a square table for numbers 1 to 5.

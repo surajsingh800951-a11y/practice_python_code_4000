@@ -1,1 +1,1 @@
-# 183. Find the HCF/GCD of two numbers.
+# 183. Find the largest number from 1 to n.

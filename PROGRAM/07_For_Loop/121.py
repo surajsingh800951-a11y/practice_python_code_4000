@@ -1,14 +1,15 @@
 # 121. Count how many times the largest digit appears.
 n=int(input("Enter a number = "))
-m=n
 count=0
-larg=0
+large=0
+digits=[]
 for i in range(len(str(n))):
     digit=n % 10
-    n = n // 10
-    if digit > larg:
-        larg=digit
-for j in str(m):
-    if j == str(larg):
-        count+=1
-print(larg,":",count,"times")
+    n=n // 10
+    digits.append(digit)
+    if large < digit:
+        large=digit
+for i in range(len(digits)):
+    if large == digits[i]:
+        count+=1        
+print("largest digit",count,"times")

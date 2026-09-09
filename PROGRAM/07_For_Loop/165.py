@@ -1,1 +1,1 @@
-# 165. Check whether a number is prime.
+# 165. Print a cube table for numbers 1 to 5.

@@ -1,1 +1,1 @@
-# 173. Print all perfect numbers from 1 to n.
+# 173. Find the middle digit of a number.

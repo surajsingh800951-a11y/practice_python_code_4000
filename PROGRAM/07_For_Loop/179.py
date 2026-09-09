@@ -1,1 +1,1 @@
-# 179. Count palindrome numbers.
+# 179. Count Armstrong numbers between two numbers.

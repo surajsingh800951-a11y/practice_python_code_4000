@@ -1,1 +1,1 @@
-# 182. Find the prime factorization of a number.
+# 182. Count even and odd numbers between two numbers.

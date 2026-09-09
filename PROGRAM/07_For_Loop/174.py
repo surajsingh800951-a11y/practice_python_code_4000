@@ -1,1 +1,1 @@
-# 174. Find the sum of perfect numbers.
+# 174. Count the distinct digits in a number.
