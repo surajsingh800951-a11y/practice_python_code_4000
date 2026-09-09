@@ -10,25 +10,6 @@ The `for` loop is used to repeat a block of code for a specific number of times 
 
 In this chapter, you will practice `for` loops from basic counting programs to advanced problems involving numbers, strings, digits, mathematical series, and different types of patterns.
 
----
-
-# 🎯 Learning Objectives
-
-After completing this chapter, you will be able to:
-
-* Write and use `for` loops
-* Use `range()` with start, stop, and step
-* Use nested `for` loops
-* Work with numbers and digits
-* Work with strings and characters
-* Solve mathematical problems using loops
-* Create star patterns
-* Create number patterns
-* Create alphabet patterns
-* Solve real programming problems using iteration
-
----
-
 # 📚 Topics Covered
 
 * `for` loop
