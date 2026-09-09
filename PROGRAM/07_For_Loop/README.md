@@ -569,5 +569,3 @@ ABCDEFGHI
 # 🚀 Next Chapter
 
 ## **08_WHILE_LOOP**
-
-> Learn condition-based repetition in Python using `while` loops, counters, validation, nested loops, and practical programming problems.
