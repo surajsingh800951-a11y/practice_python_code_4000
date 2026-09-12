@@ -1,1 +1,1 @@
-# 88. Delete the first 3 elements using del.
+# 97. Print the last 5 elements.

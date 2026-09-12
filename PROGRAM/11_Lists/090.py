@@ -1,1 +1,1 @@
-# 90. Delete the middle elements using del.
+# 99. Print elements at odd indexes using slicing.

@@ -1,1 +1,1 @@
-# 73. Take 5 names from the user and add them to a list using append().
+# 81. Store the value returned by pop() in a variable and print it.

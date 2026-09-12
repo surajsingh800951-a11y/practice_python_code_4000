@@ -1,1 +1,1 @@
-# 91. Take an index from the user and remove that element using pop().
+# 100. Reverse the list using [::-1].

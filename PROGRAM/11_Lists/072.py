@@ -1,1 +1,1 @@
-# 72. Combine two lists using extend() and print the final list.
+# 80. Remove the element at index 2 using pop().

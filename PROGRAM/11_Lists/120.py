@@ -1,1 +1,1 @@
-# 120. Count the number of zeros in a list.
+# 131. Sort a list in descending order without using sort().

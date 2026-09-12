@@ -1,1 +1,1 @@
-# 124. Reverse a list without using reverse() or [::-1].
+# 135. Rotate a list to the right by k positions.

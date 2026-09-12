@@ -1,1 +1,1 @@
-# 60. Insert 500 at index 2.
+# 68. Create a list containing numbers from 10 to 1.

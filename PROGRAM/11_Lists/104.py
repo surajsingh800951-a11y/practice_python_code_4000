@@ -1,1 +1,1 @@
-# 104. Print all elements except the last element.
+# 113. Find the smallest number in a list without using min().

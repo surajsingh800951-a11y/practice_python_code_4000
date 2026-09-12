@@ -1,1 +1,1 @@
-# 80. Remove the element at index 2 using pop().
+# 88. Delete the first 3 elements using del.

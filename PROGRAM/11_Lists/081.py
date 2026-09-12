@@ -1,1 +1,1 @@
-# 81. Store the value returned by pop() in a variable and print it.
+# 89. Delete the last 2 elements using del and slicing.

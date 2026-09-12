@@ -1,1 +1,1 @@
-# 86. Create a list with duplicate values and demonstrate what remove() does.
+# 94. Try to use pop() on an empty list and observe the error.

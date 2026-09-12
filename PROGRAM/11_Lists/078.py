@@ -1,1 +1,1 @@
-# 78. Remove the last element using pop() and print the removed value.
+# 86. Create a list with duplicate values and demonstrate what remove() does.

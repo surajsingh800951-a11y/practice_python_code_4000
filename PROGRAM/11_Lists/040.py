@@ -1,1 +1,5 @@
-# 40. Create a list containing 10 zeros using [0] * 10.
+# 40. Take 5 numbers from the user and store them in a list.
+listt=[]
+for i in range(5):
+    n=int(input("Enter a number = "))
+    listt.append(n)

@@ -1,1 +1,1 @@
-# 79. Remove the first element using pop(0).
+# 87. Remove only the first occurrence of 20 from [10, 20, 20, 30, 20].

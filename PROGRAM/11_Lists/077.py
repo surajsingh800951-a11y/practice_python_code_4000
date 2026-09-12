@@ -1,1 +1,1 @@
-# 77. Take a value from the user and remove it from a list.
+# 85. Delete the entire list variable using del.

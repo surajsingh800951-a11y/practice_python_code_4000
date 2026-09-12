@@ -1,1 +1,1 @@
-# 75. Insert a new shopping item at a specific position using insert().
+# 83. Remove the last element using del.

@@ -1,1 +1,1 @@
-# 100. Reverse the list using [::-1].
+# 109. Delete the last 3 elements using slicing.

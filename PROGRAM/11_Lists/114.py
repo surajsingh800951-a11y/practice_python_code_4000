@@ -1,1 +1,1 @@
-# 114. Find the sum of all elements without using sum().
+# 125. Reverse a list by manually swapping elements.

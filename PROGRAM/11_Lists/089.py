@@ -1,1 +1,1 @@
-# 89. Delete the last 2 elements using del and slicing.
+# 98. Print elements at even indexes using slicing.

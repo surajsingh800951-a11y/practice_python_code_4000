@@ -1,1 +1,1 @@
-# 116. Count the total number of odd numbers in a list.
+# 127. Combine two lists without using the + operator.

@@ -1,1 +1,1 @@
-# 83. Remove the last element using del.
+# 91. Take an index from the user and remove that element using pop().

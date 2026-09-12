@@ -1,1 +1,1 @@
-# 110. Create a new reversed list using slicing.
+# 120. Count the number of zeros in a list.

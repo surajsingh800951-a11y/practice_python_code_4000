@@ -1,1 +1,1 @@
-# 95. Empty a list using clear().
+# 104. Print all elements except the last element.

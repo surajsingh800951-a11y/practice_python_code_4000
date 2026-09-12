@@ -1,1 +1,1 @@
-# 87. Remove only the first occurrence of 20 from [10, 20, 20, 30, 20].
+# 96. Print the first 5 elements.

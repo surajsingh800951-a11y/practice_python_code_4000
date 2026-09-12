@@ -1,1 +1,1 @@
-# 118. Create a new list containing only odd numbers.
+# 129. Find the second-smallest number in a list.

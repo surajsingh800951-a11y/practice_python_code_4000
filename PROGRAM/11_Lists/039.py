@@ -1,1 +1,3 @@
-# 39. Convert the tuple (1, 2, 3, 4) into a list.
+# 39. Create a list containing 10 zeros using [0] * 10.
+my_list=[0]*10
+print(my_list)

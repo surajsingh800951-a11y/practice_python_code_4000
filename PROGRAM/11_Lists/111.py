@@ -1,1 +1,1 @@
-# 111. Print the first and last elements of a list.
+# 121. Count the occurrence of a given number without using count().

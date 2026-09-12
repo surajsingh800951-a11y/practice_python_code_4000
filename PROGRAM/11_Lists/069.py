@@ -1,1 +1,1 @@
-# 69. Add an element at the beginning of an existing list.
+# 77. Take a value from the user and remove it from a list.

@@ -1,1 +1,1 @@
-# 98. Print elements at even indexes using slicing.
+# 107. Replace the middle elements using slicing assignment.

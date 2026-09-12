@@ -1,1 +1,1 @@
-# 103. Print all elements except the first element.
+# 112. Find the largest number in a list without using max().

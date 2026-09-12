@@ -1,1 +1,1 @@
-# 74. Create a shopping list and add 5 items using append().
+# 82. Remove the element at index 1 using del.

@@ -1,1 +1,1 @@
-# 94. Try to use pop() on an empty list and observe the error.
+# 103. Print all elements except the first element.

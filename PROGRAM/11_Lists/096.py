@@ -1,1 +1,1 @@
-# 96. Print the first 5 elements.
+# 105. Replace the first 3 elements using slicing.

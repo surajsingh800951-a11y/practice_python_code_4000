@@ -1,1 +1,1 @@
-# 102. Print elements from index 2 to index 7.
+# 111. Print the first and last elements of a list.

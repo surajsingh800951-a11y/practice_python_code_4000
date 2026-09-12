@@ -1,1 +1,3 @@
-# 37. Create a list containing [10, 20, 30, 40, 50] and print it.
+# 37. Create a list containing an integer, string, float, and boolean.
+my_list=[10,20.5,"Suraj",True]
+print(my_list)

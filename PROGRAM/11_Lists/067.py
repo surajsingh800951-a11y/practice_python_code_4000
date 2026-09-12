@@ -1,1 +1,1 @@
-# 67. Create a list containing numbers from 1 to 10 using append().
+# 75. Insert a new shopping item at a specific position using insert().

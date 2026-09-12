@@ -1,1 +1,1 @@
-# 71. Add multiple elements to the end of an existing list.
+# 79. Remove the first element using pop(0).

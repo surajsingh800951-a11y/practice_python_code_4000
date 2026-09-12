@@ -1,1 +1,1 @@
-# 105. Replace the first 3 elements using slicing.
+# 115. Count the total number of even numbers in a list.

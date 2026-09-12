@@ -1,1 +1,1 @@
-# 62. Combine two lists using extend().
+# 70. Add an element in the middle of an existing list.

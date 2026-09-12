@@ -1,1 +1,1 @@
-# 63. Add [3, 4, 5] to [1, 2] using extend().
+# 71. Add multiple elements to the end of an existing list.

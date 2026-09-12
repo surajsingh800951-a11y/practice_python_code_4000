@@ -1,1 +1,1 @@
-# 97. Print the last 5 elements.
+# 106. Replace the last 2 elements using slicing.

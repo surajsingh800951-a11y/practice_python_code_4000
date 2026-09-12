@@ -1,1 +1,1 @@
-# 101. Print every third element.
+# 110. Create a new reversed list using slicing.

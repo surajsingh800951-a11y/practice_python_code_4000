@@ -1,1 +1,1 @@
-# 85. Delete the entire list variable using del.
+# 93. Check whether a value exists before using remove().

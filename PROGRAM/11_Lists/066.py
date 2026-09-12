@@ -1,1 +1,1 @@
-# 66. Use extend() to add [3, 4] to [1, 2] and print the result.
+# 74. Create a shopping list and add 5 items using append().

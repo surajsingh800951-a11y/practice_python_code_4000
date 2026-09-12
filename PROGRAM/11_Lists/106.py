@@ -1,1 +1,1 @@
-# 106. Replace the last 2 elements using slicing.
+# 116. Count the total number of odd numbers in a list.

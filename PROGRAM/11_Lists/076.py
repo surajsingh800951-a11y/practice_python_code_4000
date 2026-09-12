@@ -1,1 +1,1 @@
-# 76. Remove 20 from a list using remove().
+# 84. Empty a list using clear().

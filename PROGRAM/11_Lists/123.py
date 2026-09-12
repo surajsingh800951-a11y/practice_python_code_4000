@@ -1,1 +1,1 @@
-# 123. Remove duplicate values from a list.
+# 134. Rotate a list to the left by k positions.

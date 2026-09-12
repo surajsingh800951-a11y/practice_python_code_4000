@@ -1,1 +1,1 @@
-# 70. Add an element in the middle of an existing list.
+# 78. Remove the last element using pop() and print the removed value.

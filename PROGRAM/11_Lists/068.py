@@ -1,1 +1,1 @@
-# 68. Create a list containing numbers from 10 to 1.
+# 76. Remove 20 from a list using remove().
