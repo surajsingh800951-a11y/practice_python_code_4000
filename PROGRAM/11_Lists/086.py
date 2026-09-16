@@ -1,1 +1,3 @@
-# 94. Try to use pop() on an empty list and observe the error.
+# 86. Try to use pop() on an empty list and observe the error.
+listt=[]
+listt.pop()
