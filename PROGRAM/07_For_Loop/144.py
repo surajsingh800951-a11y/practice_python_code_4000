@@ -9,3 +9,5 @@ for i in range(1,n+1):
             hcf_n=i
 if hcf_n == 1:
     print("Co-prime")
+else:
+    print("Not Co-prime")
