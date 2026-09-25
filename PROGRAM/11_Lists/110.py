@@ -1,9 +1,7 @@
-# 120. Count the number of zeros in a list.
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
+# 110. Count the number of zeros in a list.
+listt = [10, 0, 20, 0, 30, 0, 40]
+count=0
 for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
+    if i == 0:
+        count+=1
+print(count)

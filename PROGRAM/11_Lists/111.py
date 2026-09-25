@@ -1,17 +1,9 @@
-# 121. Count the occurrence of a given number without using count().
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
+# 111. Count the occurrence of a given number without using count().
+listt = [10, 20, 10, 30, 10, 40]
+n = 10
+n = int(input("Enter number: "))
+count=0
 for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
-for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
+    if i == n:
+        count+=1
+print(count)

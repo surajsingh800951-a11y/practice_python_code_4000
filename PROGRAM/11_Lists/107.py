@@ -1,9 +1,7 @@
-# 117. Create a new list containing only even numbers.
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
-for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
+# 107. Create a new list containing only even numbers.
+listt = [10, 15, 20, 25, 30, 33]
+listt2=[]
+for i in range(0,len(listt)):
+    if listt[i] % 2 == 0:
+        listt2.append(listt[i])
+print(listt2)
