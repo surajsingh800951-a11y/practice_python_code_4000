@@ -1,9 +1,6 @@
-# 124. Reverse a list without using reverse() or [::-1].
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
-for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
+# 113. Reverse a list without using reverse() or [::-1].
+listt = [10, 20, 30, 40, 50]
+listt2=[]
+for i in  range(len(listt)-1,-1,-1):
+    listt2.append(listt[i])
+print(listt2)
