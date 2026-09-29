@@ -1,20 +1,13 @@
-# 134. Rotate a list to the left by k positions.
-# 116. Count the total number of odd numbers in a list.
-# 103. Find the largest number in a list without using max().
-listt=[10,50,20,80,30]
-larg=listt[0]
-for i in listt:
-    if larg < i:
-        larg=i
-print(larg)
-# 118. Find the second-smallest number in a list.
-listt = [10, 50, 30, 80, 40]
-prev=listt[0]
-curr=listt[0]
-for i in listt:
-    if curr > i:
-        prev=curr
-        curr=i
-    elif prev > i and i != curr:
-        prev=i
-print("Second-smallest number in a list =",prev)
+# 123. Rotate a list to the left by k positions.
+listt = [10, 20, 30, 40, 50]
+k = 2
+
+for i in range(k):
+    temp = listt[0]
+
+    for j in range(len(listt) - 1):
+        listt[j] = listt[j + 1]
+
+    listt[-1] = temp
+
+print(listt)
