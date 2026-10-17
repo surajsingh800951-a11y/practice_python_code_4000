@@ -1,0 +1,1 @@
+﻿# 16. Write a program to create a shallow copy of a list of restaurant orders using copy().
