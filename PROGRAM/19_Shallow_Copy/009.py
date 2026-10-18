@@ -1,9 +1,13 @@
 ﻿# 9. Write a program to create a shallow copy of a list of electricity bills using copy().
 
-a=[12,2,3,[75,4,5,3,3]]
+electricity_bills = [
+    ["Suraj", 1250],
+    ["Ravi", 980],
+    ["Amit", 1450],
+    ["Pankaj", 1100]
+]
 
-b=a.copy()  # [12,2,50,[75,4,5,3,3]]
-b[3][2]=50
-print("Original=",a)
-print()
-print("Copy list",b)
+e_b_copy = electricity_bills.copy()
+
+print("Original List =", electricity_bills)
+print("Shallow Copy =", e_b_copy)
