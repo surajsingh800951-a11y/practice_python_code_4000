@@ -1,12 +1,12 @@
 ﻿# 21. Write a program to create a shallow copy of a list of student records using slicing [:].
-delivery_addresses = [
-    ["Suraj", "Varanasi"],
-    ["Rahul", "Lucknow"],
-    ["Amit", "Delhi"],
-    ["Shivam", "Kanpur"]
+student = [
+    ["Suraj", 20],
+    ["Surya", 21],
+    ["Shivam", 19],
+    ["Rahul", 22]
 ]
 
-d_a_copy = delivery_addresses.copy()
+student_copy = student[:]
 
-print("Original List =", delivery_addresses)
-print("Shallow Copy =", d_a_copy)
+print("Original List =", student)
+print("Shallow Copy =", student_copy)
